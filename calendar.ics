@@ -1,0 +1,1031 @@
+BEGIN:VCALENDAR
+PRODID:-//cps-journal//Hosted ICS Feed//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Camberwell Primary School Events
+X-WR-CALDESC:Generated from the dedicated Google Calendar.
+X-PUBLISHED-TTL:PT4H
+REFRESH-INTERVAL;VALUE=DURATION:PT4H
+BEGIN:VEVENT
+UID:72e664b5f14c1f7074c312e4a2cfe84dee217af22dc9f3bd8f5eefddfffea5d6@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063727Z
+DTSTART;VALUE=DATE:20260129
+DTEND;VALUE=DATE:20260130
+SUMMARY:Foundation Testing
+DESCRIPTION:Foundation Testing on 29 January.\n\nSource document: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:71270efe73d1bbe892bc83b0605b5410d27dd155e5269c45b5b8db12f3ba3c58@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063728Z
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+SUMMARY:Foundation Testing
+DESCRIPTION:Foundation Testing on 30 January.\n\nSource document: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc3acf15632e80099c98655bce52814bb545da92ab72cf2a9f001869ad9beae@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063732Z
+DTSTART:20260129T213000Z
+DTEND:20260129T223000Z
+SUMMARY:Secondhand Uniform Shop – Term 1 Opening
+DESCRIPTION:Secondhand Uniform Shop opens for Term 1.\n\nSource document: h
+ ttps://newsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: h
+ ttps://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Junior Campus Hall
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2b0643456633d8209e98502d1b0ab062d69ef15e0354c991aa50ab64db23785d@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063729Z
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+SUMMARY:Foundation Testing
+DESCRIPTION:Foundation Testing on 2 February.\n\nSource document: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: https://n
+ ewsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:de573b48a1b819c976a3764c6f3b0b979566f39ee2df19865eb5bd2793ff48c4@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063752Z
+DTSTART:20260202T034500Z
+DTEND:20260202T035000Z
+SUMMARY:Assembly - Year 1-6
+DESCRIPTION:Year 1-6 assembly in the Senior Campus Hall.\n\nSource document
+ : https://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/cover\nSource page:
+  https://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/3
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:049e442005cfbbc379cd1a28b12c1806d2a020a26fc3d70fcb1926dacf66fe96@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063730Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:Foundation Testing – Half Day Morning
+DESCRIPTION:Foundation Testing on 3 February (half day morning).\n\nSource 
+ document: https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSou
+ rce page: https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eee3789423b01b5a5b211380e6333bf124e22d6814994aaf549e20ab5a2da19c@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063753Z
+DTSTART:20260202T215500Z
+DTEND:20260202T230000Z
+SUMMARY:Welcome Morning Tea (New Families)
+DESCRIPTION:Welcome morning tea for new CPS families.\n\nSource document: h
+ ttps://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/cover\nSource page: ht
+ tps://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/10
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/N6Z7n3N/issue-1/page/10
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a92282c07813bfefed9e998c95b717f26c493bdcae0360893b6d8ad8614a57e3@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063349Z
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY:Sausage Sizzle - Foundation Day 1
+DESCRIPTION:Parents' Association sausage sizzle event for Foundation day.\n
+ \nSource document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/co
+ ver\nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c303b60d809524ba115322175539aafa34646ac40c096d5af9103ffcc73fccc9@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063341Z
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+SUMMARY:Sausage Sizzle – Foundation Day (Day 1)
+DESCRIPTION:Term 1 sausage sizzle for Foundation day (Day 1).\n\nSource doc
+ ument: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nSource 
+ page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/3
+LOCATION:Camberwell Primary School grounds
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fdbfebcc3e89a3b0fb5359d8e215daea9731c568761d10dfad5d76a045544fb9@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063731Z
+DTSTART:20260203T215000Z
+DTEND:20260204T043000Z
+SUMMARY:Foundation First Full Day of School
+DESCRIPTION:Foundation first full day of school.\n\nSource document: https:
+ //newsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: https:
+ //newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8aada71780795ba52f1efaebd8376a5fa2a24758f063ab893057ae8d0a61f39e@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063731Z
+DTSTART:20260203T215500Z
+DTEND:20260203T230000Z
+SUMMARY:Welcome Morning Tea for New Families
+DESCRIPTION:Welcome Morning Tea for new CPS families.\n\nSource document: h
+ ttps://newsletters.naavi.com/i/MnL6V6N/issue-46/page/cover\nSource page: h
+ ttps://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/MnL6V6N/issue-46/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4ca506fbbf0913df9bd12b20641ec09f4a044eee4bd2d3e78aab014fdfad4a7b@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063350Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:Parents' Association meeting (Next PA meeting)
+DESCRIPTION:PA meeting to discuss events and contributions.\n\nSource docum
+ ent: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource pa
+ ge: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+LOCATION:Online (Teams)
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5b6e1ccafd843d23f3d6d54eb38ac000349d95433b5e5e3b1cfcaa646f3bf9e6@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063352Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+SUMMARY:Yr 5&6 Excursion - Anastasia
+DESCRIPTION:Yr 5 & 6 excursion: Anastasia Excursion (Term 1).\n\nSource doc
+ ument: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource 
+ page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+LOCATION:Anastasia Excursion
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6849bec35c927fd4f4ce0f164e47feb1717ee7a5727ffc8014db6234328ee5e7@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T064028Z
+DTSTART:20260219T035000Z
+DTEND:20260219T042000Z
+SUMMARY:Mardi Gras dress up
+DESCRIPTION:Mardi Gras dress-up parade\; 14:50-15:20\; Senior Campus Synthi
+  Grass.\n\nSource document: https://newsletters.naavi.com/i/NVvLvBN/issue-
+ 3/page/cover\nSource page: https://newsletters.naavi.com/i/NVvLvBN/issue-3
+ /page/5
+LOCATION:Senior Campus Synthi Grass
+URL:https://newsletters.naavi.com/i/NVvLvBN/issue-3/page/5
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ac9d1a60856cd7cbc9f78f6ca11e7a70aea2c31857c4df5fa7768b0d3200a1af@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063353Z
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+SUMMARY:An Afternoon of Maths Games
+DESCRIPTION:Workshop on maths games to support learning at home.\n\nSource 
+ document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSour
+ ce page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+LOCATION:School Events / Auditorium
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7e8fd5974850908e49ac098063fbe30df77ee3dc9cae9fb782cd11ec8512bb5c@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063353Z
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
+SUMMARY:Mary Poppins Jr audition registration deadline
+DESCRIPTION:Audition registration form deadline for Mary Poppins Jr\; regis
+ tration includes brief audition and scripts guidance.\n\nSource document: 
+ https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nSource page: h
+ ttps://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+LOCATION:Online (Audition Form)
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:00326c7fdb925791c832ec4d0ecc835a4796c448b5401d841123dc9f8d068df2@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063354Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:Colour Run (Holi Festival of Colours Run)
+DESCRIPTION:Annual colour run fundraiser for CPS with obstacle course.\n\nS
+ ource document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover
+ \nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+LOCATION:Senior Campus Synthi Grass
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9de9dff997199c0e0fd83f7f138adb778b4cce3a69a5b5079eea346e6c738d6d@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063548Z
+DTSTART:20260303T221500Z
+DTEND:20260303T221500Z
+SUMMARY:Auburn High School information session at CPS
+DESCRIPTION:Auburn High School leadership information session about bilingu
+ al programs. Held at Camberwell Primary School in Year 4 classrooms (top f
+ loor of the Senior Building\, Senior Campus).\n\nSource document: https://
+ newsletters.naavi.com/i/M2VEqOM/issue-5/page/cover\nSource page: https://n
+ ewsletters.naavi.com/i/M2VEqOM/issue-5/page/9
+LOCATION:Year 4 classrooms (top floor of the Senior Building\, Senior Campu
+ s)
+URL:https://newsletters.naavi.com/i/M2VEqOM/issue-5/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:14a4c085869ff4adaa1875a840a335211b2c767d9eb6247a1d801dc735f834c5@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063342Z
+DTSTART:20260305T033000Z
+DTEND:20260305T043000Z
+SUMMARY:Holi Festival of Colours Run
+DESCRIPTION:3rd Annual Holi Festival of Colours Run fundraiser. Walk/Run on
+  an obstacle course\; colour effects\; all funds support school play equip
+ ment.\n\nSource document: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/
+ page/cover\nSource page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/p
+ age/3
+LOCATION:Camberwell Primary School Grounds
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a25f91fd39e73854ac9e4077133d57ff443755309b0666baa8cca08a447f9f@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063355Z
+DTSTART:20260305T033000Z
+DTEND:20260305T043000Z
+SUMMARY:Holi Festival of Colours Run
+DESCRIPTION:Holi festival colour run fundraiser.\n\nSource document: https:
+ //newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource page: https:/
+ /newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+LOCATION:Synthi Grass\, Senior Campus
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:36cedd1b909d8c8ac65dee245c112427e2b039580ac26a17eaed93099f607559@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063356Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:NAPLAN - Year 3 & Year 5 Writing
+DESCRIPTION:NAPLAN testing – Writing for Year 3 & Year 5.\n\nSource docum
+ ent: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource pa
+ ge: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8da1c608cb5c60fab60f61f29f99ba26ec7f0a0765e1dd5de61638d62f6300fc@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063358Z
+DTSTART;VALUE=DATE:20260312
+DTEND;VALUE=DATE:20260313
+SUMMARY:NAPLAN - Year 3 & Year 5 Reading
+DESCRIPTION:NAPLAN testing – Reading for Year 3 & Year 5.\n\nSource docum
+ ent: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource pa
+ ge: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c841fe02a92889c08c7a960c51c67c0596781ea8f29fd0085acda9cd4cecd393@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063359Z
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:NAPLAN - Year 3 & Year 5 Conventions of Language
+DESCRIPTION:NAPLAN testing – Conventions of Language for Year 3 & Year 5.
+ \n\nSource document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/
+ cover\nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:966d6bd8d5cc6b3411faa3427709dc37e2c8a18b032a4aca2d4fade804129f7d@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124619Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260321
+SUMMARY:La Semaine de la Francophonie (16-20 Mar 2026)
+DESCRIPTION:La Semaine de la Francophonie events running 16-20 March 2026 a
+ cross CPS grounds.\n\nSource document: https://newsletters.naavi.com/i/NRx
+ 6O9M/issue-12/page/cover\nSource page: https://newsletters.naavi.com/i/NRx
+ 6O9M/issue-12/page/3
+LOCATION:CPS grounds
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9acc7af53a9c1c2d8fb4570cbe98b3e676d866d230c8c43d8ec1e4f013f54842@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063400Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:NAPLAN - Year 3 & Year 5 Numeracy
+DESCRIPTION:NAPLAN testing – Numeracy for Year 3 & Year 5.\n\nSource docu
+ ment: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource p
+ age: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e8530a147e44f98d1924f01743a234ab192b359119e0e139149f878281cc8ffc@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063347Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:Croissant Day (La Semaine de la Francophonie)
+DESCRIPTION:Croissant Day as part of La Semaine de la Francophonie.\n\nSour
+ ce document: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nS
+ ource page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/11
+LOCATION:School (La Semaine de la Francophonie)
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/11
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:14be6ad9242d7438e2c0e093df3cfbf4256b836297594d2cfd7ea9b13902ffd4@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124620Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:Croissant Day (La Semaine de la Francophonie) - 17 Mar 2026
+DESCRIPTION:Croissant Day as part of La Semaine de la Francophonie.\n\nSour
+ ce document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/cover\n
+ Source page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+LOCATION:Compass Canteen
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:56e6d6de39cc600747c100b3eb659362723a545ed505bb50f7daedd58acacae3@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063401Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:Luk (Eel Season) Soiree
+DESCRIPTION:Performing Arts Soiree (registration details published).\n\nSou
+ rce document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\n
+ Source page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/6
+LOCATION:Performing Arts Events (School)
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/6
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:72d45d0da3d0973698bfbcb4f8398ae3d7eb5ce2d53271dd6e34e33b464e472a@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063405Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:Luk (Eel Season) Soirée
+DESCRIPTION:Luk (Eel Season) Soirée – Performing Arts event.\n\nSource d
+ ocument: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nSourc
+ e page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/15
+LOCATION:Performing Arts
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/15
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0423b5a5a2df2c40da47bc3b2439462feab8fcd10ec2734c2db674b82a9580f0@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124625Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260321
+SUMMARY:Mary Poppins Jr auditions window
+DESCRIPTION:Auditions window for Mary Poppins Jr production (Year 5-6).\n\n
+ Source document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/cov
+ er\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+LOCATION:Performing Arts
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9b90c74e370e4da47ba65fa0b512bc86572df1f8b0335782ed22b027be1e0fd9@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063420Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+SUMMARY:PA AGM
+DESCRIPTION:Parents' Association Annual General Meeting (online).\n\nSource
+  document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSou
+ rce page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+LOCATION:Online (Teams)
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cd9b201db4ccd2d05916a4848462330d9d1b7252bb90f81a9f037d85d7ab6768@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124621Z
+DTSTART:20260318T220000Z
+DTEND:20260318T230000Z
+SUMMARY:La Grande Lessive (19 Mar 2026)
+DESCRIPTION:La Grande Lessive art activity at CPS – Senior Campus Hall.\n
+ \nSource document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/c
+ over\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:962e74d9685fd0d4e937ad6e435eaa4bf7883828b2bf0f47306eb34603c77403@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124622Z
+DTSTART:20260318T220000Z
+DTEND:20260318T230000Z
+SUMMARY:La Grande Lessive (19 Mar 2026) – Classrooms
+DESCRIPTION:La Grande Lessive in Classrooms as part of La Semaine de la Fra
+ ncophonie.\n\nSource document: https://newsletters.naavi.com/i/NRx6O9M/iss
+ ue-12/page/cover\nSource page: https://newsletters.naavi.com/i/NRx6O9M/iss
+ ue-12/page/3
+LOCATION:Classrooms (La Grande Lessive)
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7fadcd3a6406b5161175b178f063a175cd9b51c6b731a462a492d65fc7e4e625@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124623Z
+DTSTART:20260318T230000Z
+DTEND:20260318T234500Z
+SUMMARY:Parents' and Grandparents' Morning Tea (19 Mar 2026)
+DESCRIPTION:Morning tea for parents and grandparents as part of La Semaine 
+ de la Francophonie.\n\nSource document: https://newsletters.naavi.com/i/NR
+ x6O9M/issue-12/page/cover\nSource page: https://newsletters.naavi.com/i/NR
+ x6O9M/issue-12/page/3
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ca895e443e3dc419abca2ff6320a08aa3971a0c7048e17ff6cb90cc754f505c3@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124624Z
+DTSTART:20260319T035000Z
+DTEND:20260319T042000Z
+SUMMARY:Mardi Gras Dress-Up Parade
+DESCRIPTION:Mardi Gras dress-up parade at CPS – Senior Campus Synthi Gras
+ s.\n\nSource document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/pa
+ ge/cover\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/pa
+ ge/3
+LOCATION:Senior Campus Synthi Grass
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c7f720a3c7aeef2b40e78c88343b877b2c87efa45e997375717d064c0bdf00aa@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063608Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:Industrial Action - Tuesday 24 March
+DESCRIPTION:Industrial Action day: Our teaching staff will be participating
+  in industrial action. No classes will be in place\; Care for children of 
+ Essential Workers who registered with us by mid-day today\; We will not be
+  able to accommodate students who turn up on the day.\n\nSource document: 
+ https://newsletters.naavi.com/i/M2VXOeM/issue-8/page/cover\nSource page: h
+ ttps://newsletters.naavi.com/i/M2VXOeM/issue-8/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/M2VXOeM/issue-8/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c4eb6b5ba7f8d70531b7c1953f89eb91a4568015baee8d9c2b28bf231891af92@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063350Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260401
+SUMMARY:Mary Poppins Jr callbacks
+DESCRIPTION:Audition callbacks for Mary Poppins Jr.\n\nSource document: htt
+ ps://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nSource page: http
+ s://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+LOCATION:Performing Arts
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0c21bcf862e36a3e941aebddeae682fa8b54ef989a944027addbac353bbb65f8@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063357Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:Year 5 Great Book Swap – Book Donations Needed
+DESCRIPTION:Year 5 Great Book Swap to raise funds with donated books\; take
+ s place on 26 March 2026. Each classroom will have a collection tub\; dona
+ tions welcomed.\n\nSource document: https://newsletters.naavi.com/i/5op840
+ N/issue-7/page/cover\nSource page: https://newsletters.naavi.com/i/5op840N
+ /issue-7/page/2
+LOCATION:Year 5 area / classrooms
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:489c6dcd7c641e075a236431fa7def0d419bffdb2b31c00c8bd914d5ae4986a1@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063403Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:Yr 5&6 Production - Casting announced
+DESCRIPTION:Production casting announced for Mary Poppins Jr. (Yr 5&6).\n\n
+ Source document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cove
+ r\nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+LOCATION:School Production (Mary Poppins Jr)
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e3c103e67f2a6e5e1d788271c968e23f893429564c205b90199ce822f3f50305@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T064020Z
+DTSTART:20260328T093000Z
+DTEND:20260328T103000Z
+SUMMARY:Earth Hour
+DESCRIPTION:CPS families Earth Hour reminder\; lights off 20:30-21:30 to su
+ pport global Earth Hour.\n\nSource document: https://newsletters.naavi.com
+ /i/NylwGw5/issue-10/page/cover\nSource page: https://newsletters.naavi.com
+ /i/NylwGw5/issue-10/page/2
+URL:https://newsletters.naavi.com/i/NylwGw5/issue-10/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a85ee4c8a78183654939cdb5d6f067c65bb9dd3b79b2e3fdee969cfcbf46a8@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063608Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:Purple dress-up day in support of Epilepsy
+DESCRIPTION:Make March Purple in support of Epilepsy: On 31 March students 
+ are invited to dress in purple or wear a touch of purple with their unifor
+ m and contribute a gold coin to support epilepsy services\, education and 
+ research. SunSmart clothing and appropriate footwear remain required.\n\nS
+ ource document: https://newsletters.naavi.com/i/M2VXOeM/issue-8/page/cover
+ \nSource page: https://newsletters.naavi.com/i/M2VXOeM/issue-8/page/1
+LOCATION:Camberwell Primary School
+URL:https://newsletters.naavi.com/i/M2VXOeM/issue-8/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:530922910a8b34de6c117ddd564f9c5bc6a488b97117142d0523085a8e857b79@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063405Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:End of Term 1 Sausage Sizzle
+DESCRIPTION:End of Term 1 sausage sizzle event.\n\nSource document: https:/
+ /newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource page: https://
+ newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/8
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:557408e98dab0650025e2acb07baa0bfbc85508a33f76c6c1758c5ccd9e71470@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063352Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Mary Poppins Jr Cast Announcement
+DESCRIPTION:Mary Poppins Jr cast announcement following auditions.\n\nSourc
+ e document: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/cover\nSo
+ urce page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+LOCATION:Performing Arts
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/2
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8db8bb81d8f612551e525634daa5656f656c914b7848f3cdc97b073f41b87a@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063558Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:ANZAC Assembly
+DESCRIPTION:ANZAC Day commemorative assembly mentioned in Le Journal Issue 
+ 13.\n\nSource document: https://newsletters.naavi.com/i/JqP43lN/issue-13/p
+ age/cover\nSource page: https://newsletters.naavi.com/i/JqP43lN/issue-13/p
+ age/3
+URL:https://newsletters.naavi.com/i/JqP43lN/issue-13/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:66ccc8274ef372fa81554452479a9388142d42648328be06cb23fa92d9ba6c07@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T122719Z
+DTSTART:20260427T044500Z
+DTEND:20260427T045000Z
+SUMMARY:ANZAC Assembly
+DESCRIPTION:Whole School ANZAC Day assembly. Arrive at 14:45 for a 14:50 st
+ art.\n\nSource document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/
+ page/cover\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/
+ page/3
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a582d8b8a6f261ce50eff2048fa14daf8cce852bd3c7d6e7936865265856d2@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T202019Z
+DTSTART:20260427T045000Z
+DTEND:20260427T045000Z
+SUMMARY:Whole School Assembly
+DESCRIPTION:New event: Whole School Assembly on 27 Apr 2026 not in existing
+ Events.\n\nSource document: https://newsletters.naavi.com/i/NRx6O9M/issue-
+ 12/page/cover\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-
+ 12/page/3
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3505aba82523e153df7969806a6da66a2bd488094df2f33e2b810fdb62a4534a@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063559Z
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260505
+SUMMARY:Senior Assembly
+DESCRIPTION:Senior Assembly scheduled for 4 May 2026.\n\nSource document: h
+ ttps://newsletters.naavi.com/i/JqP43lN/issue-13/page/cover\nSource page: h
+ ttps://newsletters.naavi.com/i/JqP43lN/issue-13/page/3
+URL:https://newsletters.naavi.com/i/JqP43lN/issue-13/page/3
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:10be007663ee59273513a22e54af46b87a54b66a2b554c1ee3e41f2c84e30502@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063358Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Mother's Day pancakes
+DESCRIPTION:Term 2 Mother's Day pancakes. Sign up via Compass\; Orders due 
+ for Tuesday 5 May.\n\nSource document: https://newsletters.naavi.com/i/5op
+ 840N/issue-7/page/cover\nSource page: https://newsletters.naavi.com/i/5op8
+ 40N/issue-7/page/7
+LOCATION:Compass Canteen
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7be3ff0f7fc0c6f3fb0c14cbbfd26bad21492e89a8ddd4d073d7d95778597f40@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063407Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:Mother’s Day Stall
+DESCRIPTION:Mother’s Day stall organised by Parents' Association.\n\nSour
+ ce document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nS
+ ource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/11
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/11
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:159dab8aaee6587f1228f94b0069287370a8d18df0859daf4d6840327737bb6e@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124617Z
+DTSTART:20260506T090000Z
+DTEND:20260506T090000Z
+SUMMARY:Transition from Kinder to Foundation Information Sessions - Online
+DESCRIPTION:Online information session for prospective Foundation families 
+ (Future Foundation Parents & Carers).\n\nSource document: https://newslett
+ ers.naavi.com/i/NRx6O9M/issue-12/page/cover\nSource page: https://newslett
+ ers.naavi.com/i/NRx6O9M/issue-12/page/4
+LOCATION:Online (WebEx)
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b4805f66aca0aad3cd3f2867c535552907c51d47e32c42f5cd746c86641dd8c8@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124617Z
+DTSTART:20260506T233000Z
+DTEND:20260506T233000Z
+SUMMARY:Transition from Kinder to Foundation Information Sessions - In pers
+ on
+DESCRIPTION:In-person information session for Foundation families at the sc
+ hool.\n\nSource document: https://newsletters.naavi.com/i/NRx6O9M/issue-12
+ /page/cover\nSource page: https://newsletters.naavi.com/i/NRx6O9M/issue-12
+ /page/4
+LOCATION:School Library
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/4
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:22d560f44e4b923f5dc781a08c133fcfb76c6c66b269e263b6c90d5c9d2ee62a@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063409Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:Waring (Wombat Season) Soirée
+DESCRIPTION:Performing Arts Soirée (registration in Le Journal).\n\nSource
+  document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSou
+ rce page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+LOCATION:Performing Arts Dates
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9d9ed36250422c91e4b4f92f4567eb24660a5a0d595ce23cee1ffd4420aa2573@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063557Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:New Pupil Free Day
+DESCRIPTION:Pupil free day announced for staff professional learning\; stud
+ ents do not attend.\n\nSource document: https://newsletters.naavi.com/i/Jq
+ P43lN/issue-13/page/cover\nSource page: https://newsletters.naavi.com/i/Jq
+ P43lN/issue-13/page/1
+URL:https://newsletters.naavi.com/i/JqP43lN/issue-13/page/1
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:712d90e39f6fbfeaac91cc43906ee25ab302b61c9b02471ea4eea46b01189e39@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063400Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:Count Me In For the Chaos – Baguette Day
+DESCRIPTION:Baguette Day on 2 June 2026\; sign up via Compass to contribute
+  to lunch activities.\n\nSource document: https://newsletters.naavi.com/i/
+ 5op840N/issue-7/page/cover\nSource page: https://newsletters.naavi.com/i/5
+ op840N/issue-7/page/7
+LOCATION:CPS lunch areas
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a37951f44885f93096c1b0f4c2bb559b3fbfffa2cc90295aa7d0c739173286f0@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063402Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:End of Term 2 Movie Session
+DESCRIPTION:End of Term 2 movie session on Friday 26 June 2026\; location t
+ o be advised.\n\nSource document: https://newsletters.naavi.com/i/5op840N/
+ issue-7/page/cover\nSource page: https://newsletters.naavi.com/i/5op840N/i
+ ssue-7/page/7
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5379383ab6ccd3cf70a7e71893ad5f83cacd13283c4c0281e3dabfc51a0951dc@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063410Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:Colour Run (Term 2) – Bastille Day Croissant Day
+DESCRIPTION:Term 3 event listing includes Bastille Day/Croissant Day activi
+ ties.\n\nSource document: https://newsletters.naavi.com/i/JErAjbM/issue-2/
+ page/cover\nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/p
+ age/9
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1c3cb421a0c129000b6cfcaac917cfb863d73e84806595245d7a27bb153f5c1a@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T064632Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:Sushi Tuckshop
+DESCRIPTION:Sushi Tuckshop session on 11 August 2026\; check Compass for de
+ tails.\n\nSource document: https://newsletters.naavi.com/i/5op840N/issue-7
+ /page/cover\nSource page: https://newsletters.naavi.com/i/5op840N/issue-7/
+ page/7\n\nSource document: https://newsletters.naavi.com/i/JErAjbM/issue-2
+ /page/cover\nSource page: https://newsletters.naavi.com/i/JErAjbM/issue-2/
+ page/9
+LOCATION:School Food Services
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ea8391f22a2d9b23954e42f6d8bdd4926939920b66f6e220590672678e779e54@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063405Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Father's Day pancakes
+DESCRIPTION:Father's Day pancakes on Friday 28 August 2026\; orders via Com
+ pass.\n\nSource document: https://newsletters.naavi.com/i/5op840N/issue-7/
+ page/cover\nSource page: https://newsletters.naavi.com/i/5op840N/issue-7/p
+ age/7
+LOCATION:Compass Canteen
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:944d1899f43c8bfc9240f9ca4a93b4ba8c82007d830c016895fdcd7c628bd63d@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063413Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Fathers Day Stall
+DESCRIPTION:Fathers Day stall organized by Parents' Association.\n\nSource 
+ document: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSour
+ ce page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/11
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/11
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5211db8e862ff8737072babc7f0681c60d93fbbd6d34082b241489fb408a127d@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063415Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260904
+SUMMARY:Mary Poppins Jr. School Production
+DESCRIPTION:Mary Poppins Jr. school production by Year 5 & 6.\n\nSource doc
+ ument: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/cover\nSource 
+ page: https://newsletters.naavi.com/i/JErAjbM/issue-2/page/12
+LOCATION:Senior Campus Auditorium
+URL:https://newsletters.naavi.com/i/JErAjbM/issue-2/page/12
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:918e3013efbd1257a29d6bd0769d87313f6488ddc04eeb4d5edb2a50a44cd542@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063404Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260904
+SUMMARY:Yr 5-6 School Production
+DESCRIPTION:Yr 5-6 School Production – 1pm Matinee\, 7pm Evening show (2-
+ 3 Sep).\n\nSource document: https://newsletters.naavi.com/i/Jb4L8p5/issue-
+ 4/page/cover\nSource page: https://newsletters.naavi.com/i/Jb4L8p5/issue-4
+ /page/9
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/Jb4L8p5/issue-4/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bdd959c43c93b887881e0b64456bbaf8e56b8540ff0858ea3febd68f10506fbc@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260503T063407Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:End of Term 3 Movie Session
+DESCRIPTION:End of Term 3 movie session on Friday 18 September 2026\; detai
+ ls to be advised.\n\nSource document: https://newsletters.naavi.com/i/5op8
+ 40N/issue-7/page/cover\nSource page: https://newsletters.naavi.com/i/5op84
+ 0N/issue-7/page/7
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/5op840N/issue-7/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cfe23a48be528243568194ca1c344bc1c226ff787144d26a5c666dfad4feda17@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124626Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Trivia Night
+DESCRIPTION:CPS Parents Association trivia night fundraiser.\n\nSource docu
+ ment: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/cover\nSource 
+ page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/9
+LOCATION:School Hall or Community Venue
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3826ce29bf93cdf19a809344dfd55876f00cde8c86a8d41c1b38eae8d5ce1895@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124627Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Kids Disco
+DESCRIPTION:Year-level family disco event.\n\nSource document: https://news
+ letters.naavi.com/i/NRx6O9M/issue-12/page/cover\nSource page: https://news
+ letters.naavi.com/i/NRx6O9M/issue-12/page/7
+LOCATION:Senior Campus Hall
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:941e247cace8394f02b6e93009b98f06974c7bc50c7719770c670d504f05bc85@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124628Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:State Election - Sausage Sizzle and Cake Stall
+DESCRIPTION:Sausage sizzle and cake stall for the State Election.\n\nSource
+  document: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/cover\nSo
+ urce page: https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/7
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/7
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3b58708bae512a8a396d02aa489548fc3f28619a36296b116cc83f735efbda@cps-jo
+ urnal.local
+DTSTAMP:20260504T133937Z
+LAST-MODIFIED:20260504T124629Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Sausage Sizzle – End of Year
+DESCRIPTION:End of year sausage sizzle.\n\nSource document: https://newslet
+ ters.naavi.com/i/NRx6O9M/issue-12/page/cover\nSource page: https://newslet
+ ters.naavi.com/i/NRx6O9M/issue-12/page/8
+LOCATION:School Grounds
+URL:https://newsletters.naavi.com/i/NRx6O9M/issue-12/page/8
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
