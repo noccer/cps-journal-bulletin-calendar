@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Camberwell Primary Bulletin Calendar</title>
+    <meta
+      name="description"
+      content="Subscribe to the Camberwell Primary bulletin calendar so updates appear automatically in your calendar app."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./main.js"></script>
+    <link rel="stylesheet" crossorigin href="./styles.css">
+  </head>
+
+  <body class="bg-paper text-ink antialiased">
+    <header class="border-b border-rule bg-paper">
+      <div class="mx-auto flex max-w-3xl items-center justify-between px-5 py-4 sm:px-6">
+        <div class="flex items-center gap-3">
+          <svg class="h-10 w-10 shrink-0" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#2f6fa3" />
+            <path fill="#fff" d="M17 18h30a5 5 0 0 1 5 5v24a5 5 0 0 1-5 5H17a5 5 0 0 1-5-5V23a5 5 0 0 1 5-5Z" />
+            <path fill="#dcebf6" d="M12 27h40v7H12z" />
+            <path fill="#2f6fa3" d="M22 12h5v12h-5zM37 12h5v12h-5z" />
+            <path fill="#2f6fa3" d="M45.7 34.2 19.8 43.9c-1.7.6-3-1.4-1.8-2.7l7-7.1-7-7.1c-1.2-1.3.1-3.3 1.8-2.7l25.9 9.7c.9.3.9 1.6 0 1.9Z" />
+            <path fill="#fff" d="m25 34.1 8.8-.2-8.8 3.8z" opacity=".92" />
+          </svg>
+          <div>
+            <div class="text-sm font-semibold text-ink">Bulletin Calendar</div>
+            <div class="text-xs text-neutral-600">Unofficial parent project</div>
+          </div>
+        </div>
+        <a
+          href="https://buymeacoffee.com/noccer"
+          class="hidden text-sm font-medium text-coffee underline decoration-rule underline-offset-4 hover:text-ink sm:inline"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Buy me a coffee
+        </a>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-5 py-8 sm:px-6 sm:py-10">
+      <section>
+        <p class="text-sm font-medium text-moss">Calendar subscription</p>
+        <h1 class="mt-3 text-3xl font-semibold leading-tight text-ink sm:text-4xl">
+          Camberwell Primary bulletin calendar
+        </h1>
+        <p class="mt-4 text-base leading-relaxed text-neutral-700">
+          Le Journal can be long, and important dates are easy to miss. This unofficial calendar picks out school dates
+          from Le Journal and the shorter Le Bulletin emails so your calendar app can show them for you.
+        </p>
+        <p class="mt-3 text-base leading-relaxed text-neutral-700">
+          Please subscribe to the calendar link. Do not download or import the ICS file, because that creates a one-off
+          copy that will not update.
+        </p>
+      </section>
+
+      <section id="apps" class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+        <h2 class="text-xl font-semibold text-ink">Add it to your calendar</h2>
+        <p class="mt-2 text-sm leading-relaxed text-neutral-600">
+          Choose the option that matches the calendar app you use. If a button opens a sign-in page, sign in and confirm
+          the calendar subscription.
+        </p>
+        <p class="mt-2 rounded-md bg-paper-2 px-3 py-2 text-sm leading-relaxed text-neutral-700">
+          Calendar apps refresh subscribed calendars on their own schedule, usually every few hours. New dates may not
+          appear instantly.
+        </p>
+
+        <div class="mt-5 divide-y divide-rule">
+          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+            <div class="flex gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-ink text-white">
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M17.6 13.1c0-2.5 2.1-3.7 2.2-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.4-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0-.1-2.8-1.1-2.8-4zM15.2 5.8c.7-.9 1.2-2 1.1-3.2-1.1 0-2.3.7-3.1 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.4-.6 3.1-1.5z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold text-ink">Apple Calendar</h3>
+                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                  For iPhone, iPad, or Mac. Confirm the subscription when Apple Calendar asks.
+                </p>
+              </div>
+            </div>
+            <a
+              href="webcal://noccer.github.io/cps-journal-bulletin-calendar/calendar.ics"
+              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:w-48"
+            >
+              Subscribe
+            </a>
+          </article>
+
+          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+            <div class="flex gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss text-base font-semibold text-white">
+                G
+              </div>
+              <div>
+                <h3 class="font-semibold text-ink">Google Calendar</h3>
+                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                  Adds the feed in Google Calendar from a browser.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
+              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
+            >
+              Subscribe
+            </a>
+          </article>
+
+          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+            <div class="flex gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss-light text-base font-semibold text-moss">
+                S
+              </div>
+              <div>
+                <h3 class="font-semibold text-ink">Samsung Calendar</h3>
+                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                  Subscribe through Google or Outlook, then enable that account inside Samsung Calendar.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
+              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
+            >
+              Use Google
+            </a>
+          </article>
+
+          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+            <div class="flex gap-3">
+              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss-light text-base font-semibold text-moss">
+                O
+              </div>
+              <div>
+                <h3 class="font-semibold text-ink">Outlook</h3>
+                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                  Use Outlook's web calendar or subscribe from web option. Do not upload the ICS file.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://outlook.live.com/calendar/0/addfromweb?url=https%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics&name=CPS%20Bulletin"
+              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
+            >
+              Subscribe
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="mt-5 rounded-lg border border-rule bg-paper-2 p-5 sm:p-6">
+        <div class="grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
+          <div>
+            <h2 class="text-base font-semibold text-ink">Calendar subscription link</h2>
+            <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+              If your calendar app asks for a URL, copy this link.
+            </p>
+            <code id="ics-url" class="mt-3 block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm">
+              https://noccer.github.io/cps-journal-bulletin-calendar/calendar.ics
+            </code>
+          </div>
+          <button
+            type="button"
+            class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2"
+            data-copy-ics
+          >
+            Copy link
+          </button>
+        </div>
+      </section>
+
+      <section id="how" class="mt-10 border-t border-rule pt-8">
+        <h2 class="text-xl font-semibold text-ink">How it works</h2>
+        <ul class="mt-4 space-y-3 text-sm leading-relaxed text-neutral-700">
+          <li class="flex gap-3">
+            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 6h16v12H4z" />
+                <path d="m4 7 8 6 8-6" />
+              </svg>
+            </span>
+            <span>Long Le Journal emails and short Monday bulletin emails are checked for school dates.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M8 2v4M16 2v4M3 10h18" />
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+              </svg>
+            </span>
+            <span>Dates found in those emails are added to a separate calendar automatically.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 2 11 13" />
+                <path d="m22 2-7 20-4-9-9-4Z" />
+              </svg>
+            </span>
+            <span>You subscribe to that calendar, and your calendar app refreshes it on its own schedule.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+        <h2 class="text-lg font-semibold text-ink">Independent project</h2>
+        <div class="mt-3 space-y-3 text-sm leading-relaxed text-neutral-700">
+          <p>
+            This project is not associated with Camberwell Primary School. The calendar is generated from bulletin dates
+            and may contain mistakes or omissions.
+          </p>
+          <p>
+            Spot something off? Please report it using the form below.
+          </p>
+          <p>
+            If this saves your family a bit of calendar admin, buying me a coffee helps cover the time and running costs
+            behind it.
+          </p>
+        </div>
+        <a
+          href="https://forms.gle/uPPKziG9KQnL8d6h9"
+          class="mt-4 inline-flex min-h-11 items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Report a calendar issue
+        </a>
+        <a
+          href="https://buymeacoffee.com/noccer"
+          class="mt-3 inline-flex min-h-11 items-center justify-center rounded-lg bg-coffee px-4 py-2.5 text-sm font-medium text-white hover:bg-coffee-2 focus:outline-none focus:ring-2 focus:ring-coffee focus:ring-offset-2 sm:ml-3 sm:mt-4"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Buy me a coffee
+        </a>
+      </section>
+    </main>
+
+    <footer class="border-t border-rule">
+      <div class="mx-auto flex max-w-3xl flex-col gap-2 px-5 py-6 text-xs leading-relaxed text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+        <span>Unofficial parent project.</span>
+        <span>Made in Melbourne.</span>
+      </div>
+    </footer>
+  </body>
+</html>
