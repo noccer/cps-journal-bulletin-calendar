@@ -88,7 +88,7 @@
       <section id="apps" class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
         <h2 class="text-xl font-semibold text-ink">Add it to your calendar</h2>
         <p class="mt-2 text-sm leading-relaxed text-neutral-600">
-          Choose the option that matches the calendar app you use. If a button opens a sign-in page, sign in and confirm
+          Choose the option that matches the calendar app you use. If an option opens a sign-in page, sign in and confirm
           the calendar subscription.
         </p>
         <p class="mt-2 rounded-md bg-paper-2 px-3 py-2 text-sm leading-relaxed text-neutral-700">
@@ -96,26 +96,32 @@
           appear instantly.
         </p>
         <div class="mt-5 divide-y divide-rule">
-          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="apple">
+          <article class="provider-row px-4 py-5 sm:px-5" data-provider="apple">
             <div class="flex gap-3">
               <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
               <div class="min-w-0">
-                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
-                  <span>Apple Calendar</span>
-                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
-                </h3>
+                <h3 class="font-semibold text-ink">Apple Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  For iPhone, iPad, or Mac. Confirm the subscription when Apple Calendar asks.
+                  Apple Calendar subscriptions are more reliable when you paste the link manually instead of using a
+                  one-click button.
                 </p>
+                <div class="mt-3 rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                  <p><strong>On Mac:</strong> open Calendar, then choose <strong>File &gt; New Calendar Subscription</strong>.</p>
+                  <p class="mt-2"><strong>On iPhone or iPad:</strong> open Calendar, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
+                  <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+                    <code class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm" data-apple-ics-url>
+                      https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics
+                    </code>
+                    <button
+                      type="button"
+                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                      data-copy-apple-ics
+                    >
+                      Copy link
+                    </button>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="provider-action sm:w-48">
-              <a
-                href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/apple"
-                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2"
-              >
-                Subscribe
-              </a>
             </div>
           </article>
 
@@ -123,10 +129,7 @@
             <div class="flex gap-3">
               <img src="./google-calendar-badge.png" alt="" class="app-badge" />
               <div class="min-w-0">
-                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
-                  <span>Google Calendar</span>
-                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
-                </h3>
+                <h3 class="font-semibold text-ink">Google Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Adds the feed in Google Calendar from a browser.
                 </p>
@@ -146,10 +149,7 @@
             <div class="flex gap-3">
               <img src="./samsung-calendar-badge.png" alt="" class="app-badge" />
               <div class="min-w-0">
-                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
-                  <span>Samsung Calendar</span>
-                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
-                </h3>
+                <h3 class="font-semibold text-ink">Samsung Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Subscribe through Google or Outlook, then enable that account inside Samsung Calendar.
                 </p>
@@ -169,10 +169,7 @@
             <div class="flex gap-3">
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
               <div class="min-w-0">
-                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
-                  <span>Outlook</span>
-                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
-                </h3>
+                <h3 class="font-semibold text-ink">Outlook</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Use Outlook's web calendar or subscribe from web option. Do not upload the ICS file.
                 </p>
@@ -219,7 +216,7 @@
         </div>
       </section>
 
-      <section class="mt-5 rounded-lg border border-rule bg-paper-2 p-5 sm:p-6">
+      <section id="subscription-link" class="mt-5 rounded-lg border border-rule bg-paper-2 p-5 sm:p-6">
         <div>
           <h2 class="text-base font-semibold text-ink">Calendar subscription link</h2>
           <p class="mt-1 text-sm leading-relaxed text-neutral-600">
