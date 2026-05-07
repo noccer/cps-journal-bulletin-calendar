@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Le Journal and Le Bulletin dates in your calendar</title>
+    <title>School dates from Le Journal in your calendar</title>
     <meta
       name="description"
-      content="Le Journal and Le Bulletin dates are pulled into a calendar automatically so they can appear in your calendar app."
+      content="Get school dates from Le Journal and Le Bulletin into your calendar, so important events are easier to spot."
     />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <script type="module" crossorigin src="./main.js"></script>
@@ -14,8 +14,8 @@
   </head>
 
   <body class="bg-paper text-ink antialiased">
-    <header class="border-b border-rule bg-paper">
-      <div class="mx-auto flex max-w-3xl items-center justify-between px-5 py-4 sm:px-6">
+    <header class="site-header border-b border-rule bg-paper">
+      <div class="site-header-inner mx-auto flex max-w-3xl items-center justify-between px-5 py-4 sm:px-6">
         <div class="flex items-center gap-3">
           <svg class="h-10 w-10 shrink-0" viewBox="0 0 64 64" aria-hidden="true">
             <rect width="64" height="64" rx="14" fill="#2f6fa3" />
@@ -27,46 +27,66 @@
           </svg>
           <div>
             <div class="text-sm font-semibold text-ink">Le Journal Calendar</div>
-            <div class="text-xs text-neutral-600">Unofficial parent project</div>
+            <div class="text-xs text-neutral-600">School dates from Le Journal and Le Bulletin, in one calendar</div>
           </div>
         </div>
         <a
           href="https://buymeacoffee.com/noccer"
-          class="hidden text-sm font-medium text-coffee underline decoration-rule underline-offset-4 hover:text-ink sm:inline"
+          class="coffee-link inline-flex min-h-10 items-center justify-center gap-2 rounded-lg px-3 py-2 text-xs font-medium text-coffee transition focus:outline-none focus:ring-2 focus:ring-coffee focus:ring-offset-2 sm:min-h-11 sm:px-4 sm:text-sm"
+          data-track-id="header_buy_me_a_coffee"
+          data-track-action="donate"
+          data-track-section="header"
           rel="noreferrer"
           target="_blank"
         >
-          Buy me a coffee
+          <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M5 7.5h10.5a1 1 0 0 1 1 1v3.25a4.75 4.75 0 0 1-4.75 4.75h-2.5A4.75 4.75 0 0 1 4.5 11.75V8.5a1 1 0 0 1 1-1Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+            />
+            <path
+              d="M16.5 9h1.25a2.75 2.75 0 1 1 0 5.5H16.5M8 4.5v2M12 4.5v2M16 4.5v2"
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.8"
+            />
+          </svg>
+          <span class="sm:hidden">Coffee</span>
+          <span class="hidden sm:inline">Buy me a coffee</span>
         </a>
       </div>
     </header>
 
     <main class="mx-auto max-w-3xl px-5 py-8 sm:px-6 sm:py-10">
       <section>
-        <p class="text-sm font-medium text-moss">Calendar subscription</p>
+        <p class="text-sm font-medium text-moss">Less calendar admin</p>
         <h1 class="mt-3 text-3xl font-semibold leading-tight text-ink sm:text-4xl">
-          Le Journal and Le Bulletin dates, added to your calendar automatically
+          School dates from Le Journal and Le Bulletin, added to your calendar
         </h1>
         <p class="mt-4 text-base leading-relaxed text-neutral-700">
-          Le Journal can be long, and important dates are easy to miss. This unofficial calendar picks out school dates
-          from Le Journal and the shorter Le Bulletin emails so your calendar app can show them for you.
+          Important dates are easy to miss in long school emails. This calendar puts them into your usual calendar so
+          they are easier to see.
         </p>
-        <p class="mt-3 text-base leading-relaxed text-neutral-700">
-          Please subscribe to the calendar link. Do not download or import the ICS file, because that creates a one-off
-          copy that will not update.
+        <p class="mt-4 rounded-lg border border-rule bg-paper-2 px-4 py-3 text-sm leading-relaxed text-neutral-700">
+          Use the calendar link below to add it to your calendar. Do not download the file, or it will stop updating.
         </p>
       </section>
 
-      <section class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+      <section class="surface-card surface-card-strong mt-8 p-5 sm:p-6">
         <div class="max-w-2xl">
           <h2 class="text-xl font-semibold text-ink">What it looks like</h2>
           <p class="mt-2 text-sm leading-relaxed text-neutral-600">
-            Once subscribed, school dates show up inside your normal calendar view. Here is a real example in Google
-            Calendar month and week view.
+            Once it is added, school dates appear in your normal calendar. Here is an example in Google Calendar.
           </p>
         </div>
-        <div class="mt-5 grid gap-4 sm:grid-cols-2">
-          <figure class="calendar-preview">
+        <div class="screenshot-stage mt-6 grid gap-4 sm:grid-cols-2">
+          <figure class="calendar-preview calendar-preview-month">
             <img
               src="./month.jpeg"
               alt="Google Calendar month view showing school events across March."
@@ -74,7 +94,7 @@
             />
             <figcaption class="calendar-preview-caption">Month view</figcaption>
           </figure>
-          <figure class="calendar-preview">
+          <figure class="calendar-preview calendar-preview-week">
             <img
               src="./week.jpeg"
               alt="Google Calendar week view showing school events scheduled through one week."
@@ -85,15 +105,13 @@
         </div>
       </section>
 
-      <section id="apps" class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+      <section id="apps" class="surface-card mt-8 p-5 sm:p-6">
         <h2 class="text-xl font-semibold text-ink">Add it to your calendar</h2>
         <p class="mt-2 text-sm leading-relaxed text-neutral-600">
-          Choose the option that matches the calendar app you use. If an option opens a sign-in page, sign in and confirm
-          the calendar subscription.
+          Choose the calendar app you use most, then follow the prompt on screen.
         </p>
         <p class="mt-2 rounded-md bg-paper-2 px-3 py-2 text-sm leading-relaxed text-neutral-700">
-          Calendar apps refresh subscribed calendars on their own schedule, usually every few hours. New dates may not
-          appear instantly.
+          New dates might take a little while to appear. Most calendar apps update every few hours.
         </p>
         <div class="mt-5 divide-y divide-rule">
           <article class="provider-row px-4 py-5 sm:px-5" data-provider="apple">
@@ -102,12 +120,12 @@
               <div class="min-w-0">
                 <h3 class="font-semibold text-ink">Apple Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Apple Calendar subscriptions are more reliable when you paste the link manually instead of using a
-                  one-click button.
+                  On Apple devices, it is simplest to copy the link and add it inside Calendar.
                 </p>
                 <div class="mt-3 rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
                   <p><strong>On Mac:</strong> open Calendar, then choose <strong>File &gt; New Calendar Subscription</strong>.</p>
                   <p class="mt-2"><strong>On iPhone or iPad:</strong> open Calendar, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
+                  <p class="mt-2">Then paste the link below.</p>
                   <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
                     <code class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm" data-apple-ics-url>
                       https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics
@@ -116,6 +134,10 @@
                       type="button"
                       class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
                       data-copy-apple-ics
+                      data-track-id="apple_copy_link"
+                      data-track-action="copy"
+                      data-track-provider="apple"
+                      data-track-section="apps"
                     >
                       Copy link
                     </button>
@@ -131,7 +153,7 @@
               <div class="min-w-0">
                 <h3 class="font-semibold text-ink">Google Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Adds the feed in Google Calendar from a browser.
+                  Best if you use Google Calendar on your phone or computer.
                 </p>
               </div>
             </div>
@@ -139,6 +161,10 @@
               <a
                 href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
                 class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                data-track-id="google_subscribe"
+                data-track-action="subscribe"
+                data-track-provider="google"
+                data-track-section="apps"
               >
                 Subscribe
               </a>
@@ -151,7 +177,7 @@
               <div class="min-w-0">
                 <h3 class="font-semibold text-ink">Samsung Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Subscribe through Google or Outlook, then enable that account inside Samsung Calendar.
+                  Add it with Google first, then it will show in Samsung Calendar.
                 </p>
               </div>
             </div>
@@ -159,6 +185,10 @@
               <a
                 href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/samsung"
                 class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                data-track-id="samsung_use_google"
+                data-track-action="subscribe"
+                data-track-provider="samsung"
+                data-track-section="apps"
               >
                 Use Google
               </a>
@@ -171,7 +201,7 @@
               <div class="min-w-0">
                 <h3 class="font-semibold text-ink">Outlook</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Use Outlook's web calendar or subscribe from web option. Do not upload the ICS file.
+                  Use Outlook on the web and choose the option to add a calendar from the internet.
                 </p>
               </div>
             </div>
@@ -179,6 +209,10 @@
               <a
                 href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
                 class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                data-track-id="outlook_subscribe"
+                data-track-action="subscribe"
+                data-track-provider="outlook"
+                data-track-section="apps"
               >
                 Subscribe
               </a>
@@ -198,7 +232,7 @@
               <div>
                 <h3 class="font-semibold text-ink">Need another calendar app?</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  If you use a different provider, send me a message on LinkedIn and I can look at adding it.
+                  If you use something else, send me a message and I can look into it.
                 </p>
               </div>
             </div>
@@ -206,6 +240,9 @@
               <a
                 href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
                 class="inline-flex min-h-11 w-full items-center justify-center rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2"
+                data-track-id="linkedin_message_me"
+                data-track-action="contact"
+                data-track-section="apps"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -216,11 +253,11 @@
         </div>
       </section>
 
-      <section id="subscription-link" class="mt-5 rounded-lg border border-rule bg-paper-2 p-5 sm:p-6">
+      <section id="subscription-link" class="surface-card mt-5 p-5 sm:p-6">
         <div>
-          <h2 class="text-base font-semibold text-ink">Calendar subscription link</h2>
+          <h2 class="text-base font-semibold text-ink">Calendar link</h2>
           <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-            If your calendar app asks for a URL, copy this link.
+            If your calendar asks for a link, copy this one.
           </p>
           <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
             <code id="ics-url" class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm">
@@ -230,6 +267,9 @@
               type="button"
               class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
               data-copy-ics
+              data-track-id="subscription_link_copy"
+              data-track-action="copy"
+              data-track-section="subscription-link"
             >
               Copy link
             </button>
@@ -247,7 +287,7 @@
                 <path d="m4 7 8 6 8-6" />
               </svg>
             </span>
-            <span>Friday Le Journal newsletters and Monday Le Bulletin emails are checked for events.</span>
+            <span>Le Journal and Le Bulletin are checked for school dates.</span>
           </li>
           <li class="flex items-center gap-3">
             <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
@@ -256,7 +296,7 @@
                 <rect x="3" y="4" width="18" height="18" rx="2" />
               </svg>
             </span>
-            <span>Dates found in both of those updates are added to a calendar automatically.</span>
+            <span>The dates are added to a separate calendar for parents to use.</span>
           </li>
           <li class="flex items-center gap-3">
             <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
@@ -265,37 +305,37 @@
                 <path d="m22 2-7 20-4-9-9-4Z" />
               </svg>
             </span>
-            <span>You subscribe to that calendar, and your calendar app refreshes it on its own schedule.</span>
+            <span>You add that calendar once, and it keeps itself up to date.</span>
           </li>
         </ul>
       </section>
 
-      <section class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+      <section id="about" class="surface-card mt-8 p-5 sm:p-6">
         <h2 class="text-lg font-semibold text-ink">About</h2>
         <div class="mt-4">
-          <h3 class="text-sm font-semibold text-ink">This is an Independent project</h3>
+          <h3 class="text-sm font-semibold text-ink">A parent-made helper</h3>
         </div>
         <div class="mt-3 space-y-3 text-sm leading-relaxed text-neutral-700">
           <p>
-            This project is not associated with Camberwell Primary School. The calendar is generated from Le Journal / Le Bulletin dates
-            and may contain mistakes or omissions.
+            This is not an official school service. It is a parent-run calendar built from dates in Le Journal and Le Bulletin.
           </p>
           <p>
-            I am a parent of a pupil at the school and built it because I wanted to remove the pain of missing events in
-            the emails.
+            I made it because I kept missing dates in the emails and wanted an easier way to keep on top of them.
           </p>
           <p>
-            Spot something off? Please report it using the form below.
+            If something looks wrong, please let me know.
           </p>
           <p>
-            If this saves your family a bit of calendar admin, buying me a coffee helps cover the time and running costs
-            behind it.
+            If it saves your family a bit of time, buying me a coffee helps cover the running costs.
           </p>
         </div>
         <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-stretch">
           <a
             href="https://forms.gle/uPPKziG9KQnL8d6h9"
             class="inline-flex min-h-11 items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:min-w-56"
+            data-track-id="about_report_issue"
+            data-track-action="report_issue"
+            data-track-section="about"
             rel="noreferrer"
             target="_blank"
           >
@@ -304,6 +344,9 @@
           <a
             href="https://buymeacoffee.com/noccer"
             class="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-coffee px-4 py-2.5 text-sm font-medium text-white hover:bg-coffee-2 focus:outline-none focus:ring-2 focus:ring-coffee focus:ring-offset-2 sm:min-w-56"
+            data-track-id="about_buy_me_a_coffee"
+            data-track-action="donate"
+            data-track-section="about"
             rel="noreferrer"
             target="_blank"
           >
@@ -317,10 +360,14 @@
         </div>
         <div class="mt-6 border-t border-rule pt-5">
           <h3 class="text-sm font-semibold text-ink">About me</h3>
-          <p class="text-sm leading-relaxed text-neutral-700">
-            I build system integrations, workflow automation, and practical AI tools that turn messy business processes into reliable, time-saving systems.
+          <p class="mt-2 text-sm leading-relaxed text-neutral-700">
+            I am a CPS parent and software developer.
           </p>
-          <p class="text-sm leading-relaxed text-neutral-700 italic">
+          <p class="mt-2 text-sm leading-relaxed text-neutral-700">
+            I build system integrations, workflow automations, and practical AI tools that turn messy business processes
+            into reliable, time-saving systems. If a business has too much manual admin, too many disconnected systems, or work that should be automated, I like to help.
+          </p>
+          <p class="mt-2 text-sm leading-relaxed text-neutral-700 italic">
             - Niall O'Callaghan, May 2026
           </p>
           <a
@@ -338,7 +385,7 @@
       </section>
     </main>
 
-    <footer class="border-t border-rule">
+    <footer class="site-footer border-t border-rule">
       <div class="mx-auto flex max-w-3xl flex-col gap-2 px-5 py-6 text-xs leading-relaxed text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <span>&copy;Niall O'Callaghan <span data-current-year>2026</span></span>
         <span class="inline-flex items-center gap-1.5">
