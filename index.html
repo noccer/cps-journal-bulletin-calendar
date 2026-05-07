@@ -26,7 +26,7 @@
             <path fill="#fff" d="m25 34.1 8.8-.2-8.8 3.8z" opacity=".92" />
           </svg>
           <div>
-            <div class="text-sm font-semibold text-ink">Bulletin Calendar</div>
+            <div class="text-sm font-semibold text-ink">Le Journal Calendar</div>
             <div class="text-xs text-neutral-600">Unofficial parent project</div>
           </div>
         </div>
@@ -57,6 +57,34 @@
         </p>
       </section>
 
+      <section class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
+        <div class="max-w-2xl">
+          <h2 class="text-xl font-semibold text-ink">What it looks like</h2>
+          <p class="mt-2 text-sm leading-relaxed text-neutral-600">
+            Once subscribed, school dates show up inside your normal calendar view. Here is a real example in Google
+            Calendar month and week view.
+          </p>
+        </div>
+        <div class="mt-5 grid gap-4 sm:grid-cols-2">
+          <figure class="calendar-preview">
+            <img
+              src="./month.jpeg"
+              alt="Google Calendar month view showing school events across March."
+              class="calendar-preview-image"
+            />
+            <figcaption class="calendar-preview-caption">Month view</figcaption>
+          </figure>
+          <figure class="calendar-preview">
+            <img
+              src="./week.jpeg"
+              alt="Google Calendar week view showing school events scheduled through one week."
+              class="calendar-preview-image"
+            />
+            <figcaption class="calendar-preview-caption">Week view</figcaption>
+          </figure>
+        </div>
+      </section>
+
       <section id="apps" class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
         <h2 class="text-xl font-semibold text-ink">Add it to your calendar</h2>
         <p class="mt-2 text-sm leading-relaxed text-neutral-600">
@@ -67,100 +95,148 @@
           Calendar apps refresh subscribed calendars on their own schedule, usually every few hours. New dates may not
           appear instantly.
         </p>
-
         <div class="mt-5 divide-y divide-rule">
-          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="apple">
             <div class="flex gap-3">
               <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
-              <div>
-                <h3 class="font-semibold text-ink">Apple Calendar</h3>
+              <div class="min-w-0">
+                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
+                  <span>Apple Calendar</span>
+                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
+                </h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   For iPhone, iPad, or Mac. Confirm the subscription when Apple Calendar asks.
                 </p>
               </div>
             </div>
-            <a
-              href="webcal://noccer.github.io/cps-journal-bulletin-calendar/calendar.ics"
-              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:w-48"
-            >
-              Subscribe
-            </a>
+            <div class="provider-action sm:w-48">
+              <a
+                href="webcal://noccer.github.io/cps-journal-bulletin-calendar/calendar.ics"
+                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2"
+              >
+                Subscribe
+              </a>
+            </div>
           </article>
 
-          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="google">
             <div class="flex gap-3">
               <img src="./google-calendar-badge.png" alt="" class="app-badge" />
-              <div>
-                <h3 class="font-semibold text-ink">Google Calendar</h3>
+              <div class="min-w-0">
+                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
+                  <span>Google Calendar</span>
+                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
+                </h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Adds the feed in Google Calendar from a browser.
                 </p>
               </div>
             </div>
-            <a
-              href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
-              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
-            >
-              Subscribe
-            </a>
+            <div class="provider-action sm:w-48">
+              <a
+                href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
+                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+              >
+                Subscribe
+              </a>
+            </div>
           </article>
 
-          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="samsung">
             <div class="flex gap-3">
               <img src="./samsung-calendar-badge.png" alt="" class="app-badge" />
-              <div>
-                <h3 class="font-semibold text-ink">Samsung Calendar</h3>
+              <div class="min-w-0">
+                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
+                  <span>Samsung Calendar</span>
+                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
+                </h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Subscribe through Google or Outlook, then enable that account inside Samsung Calendar.
                 </p>
               </div>
             </div>
-            <a
-              href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
-              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
-            >
-              Use Google
-            </a>
+            <div class="provider-action sm:w-48">
+              <a
+                href="https://calendar.google.com/calendar/render?cid=webcal%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics"
+                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+              >
+                Use Google
+              </a>
+            </div>
           </article>
 
-          <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="outlook">
             <div class="flex gap-3">
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
-              <div>
-                <h3 class="font-semibold text-ink">Outlook</h3>
+              <div class="min-w-0">
+                <h3 class="flex flex-wrap items-center gap-2 font-semibold text-ink">
+                  <span>Outlook</span>
+                  <span class="suggested-provider-badge" data-suggested-badge aria-hidden="true">Suggested</span>
+                </h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Use Outlook's web calendar or subscribe from web option. Do not upload the ICS file.
                 </p>
               </div>
             </div>
-            <a
-              href="https://outlook.live.com/calendar/0/addfromweb?url=https%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics&name=CPS%20Bulletin"
-              class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:w-48"
-            >
-              Subscribe
-            </a>
+            <div class="provider-action sm:w-48">
+              <a
+                href="https://outlook.live.com/calendar/0/addfromweb?url=https%3A%2F%2Fnoccer.github.io%2Fcps-journal-bulletin-calendar%2Fcalendar.ics&name=CPS%20Bulletin"
+                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+              >
+                Subscribe
+              </a>
+            </div>
+          </article>
+
+          <article class="grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5">
+            <div class="grid grid-cols-[auto_1fr] items-start gap-3">
+              <div class="app-badge inline-flex items-center justify-center rounded-2xl border border-rule bg-paper-2 text-[#0a66c2] mt-0.5">
+                <svg class="block h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="2.5" fill="currentColor" />
+                  <circle cx="7.2" cy="8" r="1.6" fill="white" />
+                  <rect x="5.9" y="10" width="2.6" height="7.2" rx="0.7" fill="white" />
+                  <path fill="white" d="M10.3 10h2.45v1.02c.58-.79 1.52-1.3 2.77-1.3 2.28 0 3.22 1.44 3.22 3.78v3.7h-2.66v-3.36c0-1.12-.4-1.85-1.48-1.85-1.05 0-1.75.72-1.75 1.98v3.23H10.3V10Z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold text-ink">Need another calendar app?</h3>
+                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                  If you use a different provider, send me a message on LinkedIn and I can look at adding it.
+                </p>
+              </div>
+            </div>
+            <div class="provider-action sm:w-48">
+              <a
+                href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
+                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Message me
+              </a>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="mt-5 rounded-lg border border-rule bg-paper-2 p-5 sm:p-6">
-        <div class="grid gap-3 sm:grid-cols-[1fr_auto] sm:items-center">
-          <div>
-            <h2 class="text-base font-semibold text-ink">Calendar subscription link</h2>
-            <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-              If your calendar app asks for a URL, copy this link.
-            </p>
-            <code id="ics-url" class="mt-3 block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm">
+        <div>
+          <h2 class="text-base font-semibold text-ink">Calendar subscription link</h2>
+          <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+            If your calendar app asks for a URL, copy this link.
+          </p>
+          <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+            <code id="ics-url" class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm">
               https://noccer.github.io/cps-journal-bulletin-calendar/calendar.ics
             </code>
+            <button
+              type="button"
+              class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+              data-copy-ics
+            >
+              Copy link
+            </button>
           </div>
-          <button
-            type="button"
-            class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2"
-            data-copy-ics
-          >
-            Copy link
-          </button>
         </div>
       </section>
 
