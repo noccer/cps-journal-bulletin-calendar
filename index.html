@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Camberwell Primary Bulletin Calendar</title>
+    <title>Le Journal and Le Bulletin dates in your calendar</title>
     <meta
       name="description"
-      content="Subscribe to the Camberwell Primary bulletin calendar so updates appear automatically in your calendar app."
+      content="Le Journal and Le Bulletin dates are pulled into a calendar automatically so they can appear in your calendar app."
     />
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <script type="module" crossorigin src="./main.js"></script>
@@ -45,7 +45,7 @@
       <section>
         <p class="text-sm font-medium text-moss">Calendar subscription</p>
         <h1 class="mt-3 text-3xl font-semibold leading-tight text-ink sm:text-4xl">
-          Camberwell Primary bulletin calendar
+          Le Journal and Le Bulletin dates, added to your calendar automatically
         </h1>
         <p class="mt-4 text-base leading-relaxed text-neutral-700">
           Le Journal can be long, and important dates are easy to miss. This unofficial calendar picks out school dates
@@ -71,11 +71,7 @@
         <div class="mt-5 divide-y divide-rule">
           <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
             <div class="flex gap-3">
-              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-ink text-white">
-                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M17.6 13.1c0-2.5 2.1-3.7 2.2-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.5 1.3-.1 1.8-.8 3.4-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.2 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0-.1-2.8-1.1-2.8-4zM15.2 5.8c.7-.9 1.2-2 1.1-3.2-1.1 0-2.3.7-3.1 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.4-.6 3.1-1.5z" />
-                </svg>
-              </div>
+              <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
               <div>
                 <h3 class="font-semibold text-ink">Apple Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
@@ -93,9 +89,7 @@
 
           <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
             <div class="flex gap-3">
-              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss text-base font-semibold text-white">
-                G
-              </div>
+              <img src="./google-calendar-badge.png" alt="" class="app-badge" />
               <div>
                 <h3 class="font-semibold text-ink">Google Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
@@ -113,9 +107,7 @@
 
           <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
             <div class="flex gap-3">
-              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss-light text-base font-semibold text-moss">
-                S
-              </div>
+              <img src="./samsung-calendar-badge.png" alt="" class="app-badge" />
               <div>
                 <h3 class="font-semibold text-ink">Samsung Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
@@ -133,9 +125,7 @@
 
           <article class="grid gap-3 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
             <div class="flex gap-3">
-              <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-moss-light text-base font-semibold text-moss">
-                O
-              </div>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
               <div>
                 <h3 class="font-semibold text-ink">Outlook</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
@@ -177,8 +167,8 @@
       <section id="how" class="mt-10 border-t border-rule pt-8">
         <h2 class="text-xl font-semibold text-ink">How it works</h2>
         <ul class="mt-4 space-y-3 text-sm leading-relaxed text-neutral-700">
-          <li class="flex gap-3">
-            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+          <li class="flex items-center gap-3">
+            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M4 6h16v12H4z" />
                 <path d="m4 7 8 6 8-6" />
@@ -186,8 +176,8 @@
             </span>
             <span>Long Le Journal emails and short Monday bulletin emails are checked for school dates.</span>
           </li>
-          <li class="flex gap-3">
-            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+          <li class="flex items-center gap-3">
+            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M8 2v4M16 2v4M3 10h18" />
                 <rect x="3" y="4" width="18" height="18" rx="2" />
@@ -195,8 +185,8 @@
             </span>
             <span>Dates found in those emails are added to a separate calendar automatically.</span>
           </li>
-          <li class="flex gap-3">
-            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
+          <li class="flex items-center gap-3">
+            <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-moss-light text-moss">
               <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M22 2 11 13" />
                 <path d="m22 2-7 20-4-9-9-4Z" />
@@ -208,11 +198,18 @@
       </section>
 
       <section class="mt-8 rounded-lg border border-rule bg-white p-5 sm:p-6">
-        <h2 class="text-lg font-semibold text-ink">Independent project</h2>
+        <h2 class="text-lg font-semibold text-ink">About</h2>
+        <div class="mt-4">
+          <h3 class="text-sm font-semibold text-ink">This is an Independent project</h3>
+        </div>
         <div class="mt-3 space-y-3 text-sm leading-relaxed text-neutral-700">
           <p>
             This project is not associated with Camberwell Primary School. The calendar is generated from bulletin dates
             and may contain mistakes or omissions.
+          </p>
+          <p>
+            I am a parent of a pupil at the school and built it because I wanted to remove the pain of missing events in
+            the emails.
           </p>
           <p>
             Spot something off? Please report it using the form below.
@@ -238,13 +235,39 @@
         >
           Buy me a coffee
         </a>
+        <div class="mt-6 border-t border-rule pt-5">
+          <h3 class="text-sm font-semibold text-ink">About me</h3>
+          <p class="text-sm leading-relaxed text-neutral-700">
+            I build system integrations, workflow automation, and practical AI tools that turn messy business processes into reliable, time-saving systems.
+          </p>
+          <p class="text-sm leading-relaxed text-neutral-700 italic">
+            - Niall O'Callaghan, May 2026
+          </p>
+          <a
+            href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
+            class="mt-3 inline-flex min-h-11 items-center gap-2 rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.91 1.65-1.85 3.39-1.85 3.62 0 4.29 2.38 4.29 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+            </svg>
+            Get in touch on LinkedIn
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="border-t border-rule">
       <div class="mx-auto flex max-w-3xl flex-col gap-2 px-5 py-6 text-xs leading-relaxed text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-        <span>Unofficial parent project.</span>
-        <span>Made in Melbourne.</span>
+        <span>&copy;Niall O'Callaghan <span data-current-year>2026</span></span>
+        <span class="inline-flex items-center gap-1.5">
+          <span>Made with</span>
+          <svg class="h-3.5 w-3.5 shrink-0 text-heart" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 21.35 10.55 20C5.4 15.24 2 12.09 2 8.25 2 5.11 4.42 2.75 7.5 2.75c1.74 0 3.41.81 4.5 2.08 1.09-1.27 2.76-2.08 4.5-2.08 3.08 0 5.5 2.36 5.5 5.5 0 3.84-3.4 6.99-8.55 11.76L12 21.35Z" />
+          </svg>
+          <span>in Melbourne.</span>
+        </span>
       </div>
     </footer>
   </body>
