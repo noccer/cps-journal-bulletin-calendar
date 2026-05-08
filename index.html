@@ -200,10 +200,20 @@
                   <p><strong>On Mac:</strong> open Calendar, then choose <strong>File &gt; New Calendar Subscription</strong>.</p>
                   <p class="mt-2"><strong>On iPhone or iPad:</strong> open Calendar, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
                   <p class="mt-2">Then paste the link below.</p>
-                  <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
-                    <code class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm" data-apple-ics-url>
-                      https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics
-                    </code>
+                  <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
+                    <div>
+                      <input
+                        type="text"
+                        value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                        readonly
+                        aria-label="Apple Calendar subscription link"
+                        class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                        data-apple-ics-url
+                        data-select-on-tap
+                      />
+                      <p class="mt-1 text-xs text-neutral-600" data-apple-copy-hint hidden>Tap text again for copy/paste options.</p>
+                      <p class="mt-2 text-sm font-medium text-moss" data-apple-copy-status aria-live="polite"></p>
+                    </div>
                     <button
                       type="button"
                       class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
@@ -239,11 +249,84 @@
                 data-track-action="subscribe"
                 data-track-provider="google"
                 data-track-section="apps"
+                data-google-subscribe-link
+                data-google-desktop-label="Subscribe"
+                data-google-mobile-label="How to add"
+                aria-controls="google-mobile-help"
+                aria-expanded="false"
               >
                 Subscribe
               </a>
             </div>
           </article>
+
+          <section
+            id="google-mobile-help"
+            class="google-mobile-help px-4 py-5 sm:px-5"
+            data-google-mobile-help
+            aria-label="How to add this calendar to Google Calendar on mobile"
+            hidden
+          >
+            <div class="google-mobile-help-card rounded-xl border border-rule bg-paper-2 p-4 sm:p-5">
+              <div class="max-w-2xl">
+                <p class="text-sm font-semibold text-ink">Using Google Calendar on mobile?</p>
+                <p class="mt-2 text-sm leading-relaxed text-neutral-700">
+                  Google Calendar on phones and tablets does not reliably let you subscribe to a public calendar
+                  directly in the app.
+                </p>
+                <p class="mt-2 text-sm leading-relaxed text-neutral-700">
+                  Copy this link, then on a computer open <strong>Google Calendar &gt; Other calendars &gt; From URL</strong>,
+                  paste the link, and choose <strong>Add calendar</strong>. It will then appear on your phone as well.
+                </p>
+              </div>
+              <div class="mt-4 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
+                <div>
+                  <input
+                    type="text"
+                    value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                    readonly
+                    aria-label="Google Calendar subscription link"
+                    class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                    data-google-ics-url
+                    data-select-on-tap
+                  />
+                  <p class="mt-1 text-xs text-neutral-600" data-google-copy-hint hidden>Tap text again for copy/paste options.</p>
+                  <p class="mt-2 text-sm font-medium text-moss" data-google-copy-status aria-live="polite"></p>
+                </div>
+                <button
+                  type="button"
+                  class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                  data-copy-google-ics
+                  data-track-id="google_mobile_copy_link"
+                  data-track-action="copy"
+                  data-track-provider="google"
+                  data-track-section="apps"
+                >
+                  Copy link
+                </button>
+              </div>
+              <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <a
+                  href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
+                  class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-white px-4 py-2.5 text-sm font-medium text-ink hover:bg-paper focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                  data-google-mobile-fallback
+                  data-track-id="google_mobile_open_web_flow"
+                  data-track-action="subscribe"
+                  data-track-provider="google"
+                  data-track-section="apps"
+                >
+                  Open Google web flow anyway
+                </a>
+                <button
+                  type="button"
+                  class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-transparent px-4 py-2.5 text-sm font-medium text-neutral-700 hover:bg-white focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                  data-google-mobile-close
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </section>
 
           <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="outlook">
             <div class="flex gap-3">
@@ -309,10 +392,20 @@
           <p class="mt-1 text-sm leading-relaxed text-neutral-600">
             If your calendar asks for a link, copy this one.
           </p>
-          <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
-            <code id="ics-url" class="block overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm">
-              https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics
-            </code>
+          <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
+            <div>
+              <input
+                id="ics-url"
+                type="text"
+                value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                readonly
+                aria-label="Calendar subscription link"
+                class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                data-select-on-tap
+              />
+              <p class="mt-1 text-xs text-neutral-600" data-main-copy-hint hidden>Tap text again for copy/paste options.</p>
+              <p class="mt-2 text-sm font-medium text-moss" data-main-copy-status aria-live="polite"></p>
+            </div>
             <button
               type="button"
               class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
