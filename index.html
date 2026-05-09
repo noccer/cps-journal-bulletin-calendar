@@ -189,178 +189,270 @@
         </p>
         <div class="mt-5 divide-y divide-rule">
           <article class="provider-row px-4 py-5 sm:px-5" data-provider="apple">
-            <div class="flex gap-3">
-              <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
-              <div class="min-w-0 flex-1">
-                <h3 class="font-semibold text-ink">Apple Calendar</h3>
-                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  On Apple devices, it is simplest to copy the link and add it inside Calendar.
-                </p>
-                <div class="mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
-                  <div class="mt-1">
-                    <p><strong>1.</strong> Copy this link.</p>
-                    <div
-                      class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
-                      data-copy-group
-                      data-copy-success-status="Link copied."
-                    >
-                      <div>
-                        <input
-                          type="text"
-                          value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
-                          readonly
-                          aria-label="Apple Calendar subscription link"
-                          class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
-                          data-apple-ics-url
-                          data-copy-source
-                          data-select-on-tap
-                        />
-                        <p class="mt-1 text-xs text-neutral-600" data-apple-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
-                        <p class="mt-2 text-sm font-medium text-moss" data-apple-copy-status data-copy-status aria-live="polite"></p>
-                      </div>
-                      <button
-                        type="button"
-                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
-                        data-copy-apple-ics
-                        data-copy-trigger
-                        data-track-id="apple_copy_link"
-                        data-track-action="copy"
-                        data-track-provider="apple"
-                        data-track-section="apps"
-                      >
-                        Copy link
-                      </button>
-                    </div>
-                  </div>
-                  <p class="mt-4"><strong>2.</strong> Open Apple Calendar.</p>
-                  <p class="mt-2"><strong>3a.</strong> On Mac, choose <strong>File &gt; New Calendar Subscription</strong>.</p>
-                  <p class="mt-2"><strong>3b.</strong> On iPhone or iPad, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
-                  <p class="mt-2"><strong>4.</strong> Paste the link and finish adding the calendar.</p>
+            <div class="provider-shell">
+              <div class="provider-head">
+                <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
+                <div class="min-w-0 flex-1">
+                  <h3 class="font-semibold text-ink">Apple Calendar</h3>
+                  <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                    On Apple devices, it is simplest to copy the link and add it inside Calendar.
+                  </p>
                 </div>
+              </div>
+              <div class="provider-body mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                <div class="mt-1">
+                  <p><strong>1.</strong> Copy this link.</p>
+                  <div
+                    class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+                    data-copy-group
+                    data-copy-success-status="Link copied."
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                        readonly
+                        aria-label="Apple Calendar subscription link"
+                        class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                        data-apple-ics-url
+                        data-copy-source
+                        data-select-on-tap
+                      />
+                      <p class="mt-1 text-xs text-neutral-600" data-apple-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+                      <p class="mt-2 text-sm font-medium text-moss" data-apple-copy-status data-copy-status aria-live="polite"></p>
+                    </div>
+                    <button
+                      type="button"
+                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                      data-copy-apple-ics
+                      data-copy-trigger
+                      data-track-id="apple_copy_link"
+                      data-track-action="copy"
+                      data-track-provider="apple"
+                      data-track-section="apps"
+                    >
+                      Copy link
+                    </button>
+                  </div>
+                </div>
+                <p class="mt-4"><strong>2.</strong> Open Apple Calendar.</p>
+                <p class="mt-2"><strong>3a.</strong> On Mac, choose <strong>File &gt; New Calendar Subscription</strong>.</p>
+                <p class="mt-2"><strong>3b.</strong> On iPhone or iPad, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
+                <p class="mt-2"><strong>4.</strong> Paste the link and finish adding the calendar.</p>
               </div>
             </div>
           </article>
 
           <article class="provider-row px-4 py-5 sm:px-5" data-provider="google">
-            <div class="flex gap-3">
-              <img src="./google-calendar-badge.png" alt="" class="app-badge" />
-              <div class="min-w-0 flex-1">
-                <h3 class="font-semibold text-ink">Google Calendar</h3>
-                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Best if you use Google Calendar on your phone or computer.
-                </p>
-                <div class="mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
-                  <div class="mt-1">
-                    <p><strong>1.</strong> Copy this link.</p>
-                    <div
-                      class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
-                      data-copy-group
-                      data-copy-success-status="Link copied. Add it in Google Calendar on a computer."
+            <div class="provider-shell">
+              <div class="provider-head">
+                <img src="./google-calendar-badge.png" alt="" class="app-badge" />
+                <div class="min-w-0 flex-1">
+                  <h3 class="font-semibold text-ink">Google Calendar</h3>
+                  <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                    Best if you can open Google Calendar in a computer browser first. Once added there, it will also show on your phone.
+                  </p>
+                </div>
+              </div>
+              <div class="provider-body mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                <div class="mt-1">
+                  <p><strong>1.</strong> Copy this link.</p>
+                  <div
+                    class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+                    data-copy-group
+                    data-copy-success-status="Link copied. Add it in Google Calendar in a computer browser."
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                        readonly
+                        aria-label="Google Calendar subscription link"
+                        class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                        data-google-ics-url
+                        data-copy-source
+                        data-select-on-tap
+                      />
+                      <p class="mt-1 text-xs text-neutral-600" data-google-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+                      <p class="mt-2 text-sm font-medium text-moss" data-google-copy-status data-copy-status aria-live="polite"></p>
+                    </div>
+                    <button
+                      type="button"
+                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                      data-copy-google-ics
+                      data-copy-trigger
+                      data-track-id="google_copy_link"
+                      data-track-action="copy"
+                      data-track-provider="google"
+                      data-track-section="apps"
                     >
-                      <div>
-                        <input
-                          type="text"
-                          value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
-                          readonly
-                          aria-label="Google Calendar subscription link"
-                          class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
-                          data-google-ics-url
-                          data-copy-source
-                          data-select-on-tap
-                        />
-                        <p class="mt-1 text-xs text-neutral-600" data-google-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
-                        <p class="mt-2 text-sm font-medium text-moss" data-google-copy-status data-copy-status aria-live="polite"></p>
-                      </div>
-                      <button
-                        type="button"
-                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
-                        data-copy-google-ics
-                        data-copy-trigger
-                        data-track-id="google_copy_link"
-                        data-track-action="copy"
-                        data-track-provider="google"
-                        data-track-section="apps"
-                      >
-                        Copy link
-                      </button>
-                    </div>
+                      Copy link
+                    </button>
                   </div>
-                  <div class="mt-4">
-                    <p><strong>2.</strong> Open the <strong>From URL</strong> page in Google Calendar.</p>
-                    <div class="mt-3">
-                      <a
-                        href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
-                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:min-w-56"
-                        data-google-subscribe-link
-                        data-track-id="google_open_from_url"
-                        data-track-action="subscribe"
-                        data-track-provider="google"
-                        data-track-section="apps"
-                      >
-                        Open From URL page
-                      </a>
-                    </div>
+                </div>
+                <div class="mt-4">
+                  <p><strong>2.</strong> Open the <strong>From URL</strong> page in Google Calendar on the web.</p>
+                  <div class="mt-3">
+                    <a
+                      href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
+                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:min-w-56"
+                      data-google-subscribe-link
+                      data-track-id="google_open_from_url"
+                      data-track-action="subscribe"
+                      data-track-provider="google"
+                      data-track-section="apps"
+                    >
+                      Open From URL page
+                    </a>
                   </div>
-                  <p class="mt-4"><strong>3.</strong> Paste the link into the box and add the calendar.</p>
-                  <p class="mt-2"><strong>4.</strong> Make sure the timezone looks correct after it appears.</p>
+                </div>
+                <p class="mt-4"><strong>3.</strong> Paste the link into the box and add the calendar.</p>
+                <p class="mt-2"><strong>4.</strong> Open the Google Calendar app later if you want to view it on your phone.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="provider-row px-4 py-5 sm:px-5" data-provider="outlook">
+            <div class="provider-shell">
+              <div class="provider-head provider-head-desktop provider-head-stack-mobile">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
+                <div class="min-w-0 flex-1">
+                  <h3 class="font-semibold text-ink">Outlook</h3>
+                  <p class="mt-1 text-sm leading-relaxed text-neutral-600 sm:hidden">
+                    Outlook on the web can work, but on phones it often opens Calendar without showing the add prompt.
+                  </p>
+                  <p class="mt-1 hidden text-sm leading-relaxed text-neutral-600 sm:block">
+                    Fastest on desktop: this opens Outlook's calendar subscription screen with the link filled in.
+                  </p>
+                </div>
+                <div class="provider-action hidden sm:flex sm:w-48 sm:justify-end">
+                  <a
+                    href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
+                    class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                    data-track-id="outlook_subscribe"
+                    data-track-action="subscribe"
+                    data-track-provider="outlook"
+                    data-track-section="apps"
+                  >
+                    Subscribe in Outlook
+                  </a>
+                </div>
+              </div>
+              <div class="provider-body mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                <p class="hidden sm:block">
+                  If Outlook is already open on your phone, the manual path below is more reliable than the direct link.
+                </p>
+                <div class="mt-1 sm:mt-4">
+                  <p><strong>1.</strong> Copy this link.</p>
+                  <div
+                    class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+                    data-copy-group
+                    data-copy-success-status="Link copied. If Outlook does not show the add screen on your phone, use the manual steps below."
+                  >
+                    <div>
+                      <input
+                        type="text"
+                        value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                        readonly
+                        aria-label="Outlook subscription link"
+                        class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                        data-outlook-ics-url
+                        data-copy-source
+                        data-select-on-tap
+                      />
+                      <p class="mt-1 text-xs text-neutral-600" data-outlook-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+                      <p class="mt-2 text-sm font-medium text-moss" data-outlook-copy-status data-copy-status aria-live="polite"></p>
+                    </div>
+                    <button
+                      type="button"
+                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                      data-copy-outlook-ics
+                      data-copy-trigger
+                      data-track-id="outlook_copy_link"
+                      data-track-action="copy"
+                      data-track-provider="outlook"
+                      data-track-section="apps"
+                    >
+                      Copy link
+                    </button>
+                  </div>
+                </div>
+                <p class="mt-4"><strong>2.</strong> Open Outlook Calendar.</p>
+                <div class="mt-3">
+                  <a
+                    href="https://outlook.live.com/calendar/0/"
+                    class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-white px-4 py-2.5 text-sm font-medium text-ink hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-56"
+                    data-track-id="outlook_open_calendar"
+                    data-track-action="open_calendar"
+                    data-track-provider="outlook"
+                    data-track-section="apps"
+                  >
+                    Open Outlook Calendar
+                  </a>
+                </div>
+                <p class="mt-4"><strong>3.</strong> If you are on a phone, try desktop mode or switch to a computer browser.</p>
+                <p class="mt-2"><strong>4.</strong> In Outlook on the web, choose <strong>Add calendar &gt; Subscribe from web</strong>.</p>
+                <p class="mt-2"><strong>5.</strong> Paste the link and finish adding the calendar.</p>
+                <div class="mt-4 sm:hidden">
+                  <a
+                    href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
+                    class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-paper-2 px-4 py-2.5 text-sm font-medium text-moss hover:text-ink hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
+                    data-track-id="outlook_try_anyway"
+                    data-track-action="subscribe"
+                    data-track-provider="outlook"
+                    data-track-section="apps"
+                  >
+                    Try Outlook web anyway
+                  </a>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="outlook">
-            <div class="flex gap-3">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
-              <div class="min-w-0">
-                <h3 class="font-semibold text-ink">Outlook</h3>
-                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
-                  Use Outlook on the web and choose the option to add a calendar from the internet.
-                </p>
+          <article class="provider-row px-4 py-5 sm:px-5">
+            <div class="provider-shell">
+              <div class="provider-head provider-head-desktop">
+                <div class="app-badge inline-flex items-center justify-center rounded-2xl border border-rule bg-paper-2 text-[#0a66c2] mt-0.5">
+                  <svg class="block h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="2" y="2" width="20" height="20" rx="2.5" fill="currentColor" />
+                    <circle cx="7.2" cy="8" r="1.6" fill="white" />
+                    <rect x="5.9" y="10" width="2.6" height="7.2" rx="0.7" fill="white" />
+                    <path fill="white" d="M10.3 10h2.45v1.02c.58-.79 1.52-1.3 2.77-1.3 2.28 0 3.22 1.44 3.22 3.78v3.7h-2.66v-3.36c0-1.12-.4-1.85-1.48-1.85-1.05 0-1.75.72-1.75 1.98v3.23H10.3V10Z" />
+                  </svg>
+                </div>
+                <div class="min-w-0 flex-1">
+                  <h3 class="font-semibold text-ink">Need another calendar app?</h3>
+                </div>
+                <div class="provider-action hidden sm:flex sm:w-48 sm:justify-end">
+                  <a
+                    href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
+                    class="inline-flex min-h-11 w-full items-center justify-center rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2"
+                    data-track-id="linkedin_message_me"
+                    data-track-action="contact"
+                    data-track-section="apps"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Message me
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="provider-action sm:w-48">
-              <a
-                href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
-                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                data-track-id="outlook_subscribe"
-                data-track-action="subscribe"
-                data-track-provider="outlook"
-                data-track-section="apps"
-              >
-                Subscribe
-              </a>
-            </div>
-          </article>
-
-          <article class="grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5">
-            <div class="grid grid-cols-[auto_1fr] items-start gap-3">
-              <div class="app-badge inline-flex items-center justify-center rounded-2xl border border-rule bg-paper-2 text-[#0a66c2] mt-0.5">
-                <svg class="block h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
-                  <rect x="2" y="2" width="20" height="20" rx="2.5" fill="currentColor" />
-                  <circle cx="7.2" cy="8" r="1.6" fill="white" />
-                  <rect x="5.9" y="10" width="2.6" height="7.2" rx="0.7" fill="white" />
-                  <path fill="white" d="M10.3 10h2.45v1.02c.58-.79 1.52-1.3 2.77-1.3 2.28 0 3.22 1.44 3.22 3.78v3.7h-2.66v-3.36c0-1.12-.4-1.85-1.48-1.85-1.05 0-1.75.72-1.75 1.98v3.23H10.3V10Z" />
-                </svg>
-              </div>
-              <div>
-                <h3 class="font-semibold text-ink">Need another calendar app?</h3>
-                <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+              <div class="provider-body">
+                <p class="text-sm leading-relaxed text-neutral-600">
                   If you use something else, send me a message and I can look into it.
                 </p>
+                <a
+                  href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
+                  class="mt-4 inline-flex min-h-11 w-full items-center justify-center rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2 sm:hidden"
+                  data-track-id="linkedin_message_me"
+                  data-track-action="contact"
+                  data-track-section="apps"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Message me
+                </a>
               </div>
-            </div>
-            <div class="provider-action sm:w-48">
-              <a
-                href="https://www.linkedin.com/in/niall-o-callaghan-webdev"
-                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg border border-[#c7d3dc] bg-[#f6f8fa] px-4 py-2.5 text-sm font-medium text-[#0a66c2] hover:bg-white focus:outline-none focus:ring-2 focus:ring-[#0a66c2] focus:ring-offset-2"
-                data-track-id="linkedin_message_me"
-                data-track-action="contact"
-                data-track-section="apps"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Message me
-              </a>
             </div>
           </article>
         </div>
