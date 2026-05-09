@@ -191,142 +191,122 @@
           <article class="provider-row px-4 py-5 sm:px-5" data-provider="apple">
             <div class="flex gap-3">
               <img src="./apple-calendar-badge.png" alt="" class="app-badge" />
-              <div class="min-w-0">
+              <div class="min-w-0 flex-1">
                 <h3 class="font-semibold text-ink">Apple Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   On Apple devices, it is simplest to copy the link and add it inside Calendar.
                 </p>
-                <div class="mt-3 rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
-                  <p><strong>On Mac:</strong> open Calendar, then choose <strong>File &gt; New Calendar Subscription</strong>.</p>
-                  <p class="mt-2"><strong>On iPhone or iPad:</strong> open Calendar, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
-                  <p class="mt-2">Then paste the link below.</p>
-                  <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
-                    <div>
-                      <input
-                        type="text"
-                        value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
-                        readonly
-                        aria-label="Apple Calendar subscription link"
-                        class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
-                        data-apple-ics-url
-                        data-select-on-tap
-                      />
-                      <p class="mt-1 text-xs text-neutral-600" data-apple-copy-hint hidden>Tap text again for copy/paste options.</p>
-                      <p class="mt-2 text-sm font-medium text-moss" data-apple-copy-status aria-live="polite"></p>
-                    </div>
-                    <button
-                      type="button"
-                      class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
-                      data-copy-apple-ics
-                      data-track-id="apple_copy_link"
-                      data-track-action="copy"
-                      data-track-provider="apple"
-                      data-track-section="apps"
+                <div class="mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                  <div class="mt-1">
+                    <p><strong>1.</strong> Copy this link.</p>
+                    <div
+                      class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+                      data-copy-group
+                      data-copy-success-status="Link copied."
                     >
-                      Copy link
-                    </button>
+                      <div>
+                        <input
+                          type="text"
+                          value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                          readonly
+                          aria-label="Apple Calendar subscription link"
+                          class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                          data-apple-ics-url
+                          data-copy-source
+                          data-select-on-tap
+                        />
+                        <p class="mt-1 text-xs text-neutral-600" data-apple-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+                        <p class="mt-2 text-sm font-medium text-moss" data-apple-copy-status data-copy-status aria-live="polite"></p>
+                      </div>
+                      <button
+                        type="button"
+                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                        data-copy-apple-ics
+                        data-copy-trigger
+                        data-track-id="apple_copy_link"
+                        data-track-action="copy"
+                        data-track-provider="apple"
+                        data-track-section="apps"
+                      >
+                        Copy link
+                      </button>
+                    </div>
                   </div>
+                  <p class="mt-4"><strong>2.</strong> Open Apple Calendar.</p>
+                  <p class="mt-2"><strong>3a.</strong> On Mac, choose <strong>File &gt; New Calendar Subscription</strong>.</p>
+                  <p class="mt-2"><strong>3b.</strong> On iPhone or iPad, tap <strong>Calendars &gt; Add Calendar &gt; Add Subscription Calendar</strong>.</p>
+                  <p class="mt-2"><strong>4.</strong> Paste the link and finish adding the calendar.</p>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="google">
+          <article class="provider-row px-4 py-5 sm:px-5" data-provider="google">
             <div class="flex gap-3">
               <img src="./google-calendar-badge.png" alt="" class="app-badge" />
-              <div class="min-w-0">
+              <div class="min-w-0 flex-1">
                 <h3 class="font-semibold text-ink">Google Calendar</h3>
                 <p class="mt-1 text-sm leading-relaxed text-neutral-600">
                   Best if you use Google Calendar on your phone or computer.
                 </p>
+                <div class="mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
+                  <div class="mt-1">
+                    <p><strong>1.</strong> Copy this link.</p>
+                    <div
+                      class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+                      data-copy-group
+                      data-copy-success-status="Link copied. Add it in Google Calendar on a computer."
+                    >
+                      <div>
+                        <input
+                          type="text"
+                          value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
+                          readonly
+                          aria-label="Google Calendar subscription link"
+                          class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                          data-google-ics-url
+                          data-copy-source
+                          data-select-on-tap
+                        />
+                        <p class="mt-1 text-xs text-neutral-600" data-google-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+                        <p class="mt-2 text-sm font-medium text-moss" data-google-copy-status data-copy-status aria-live="polite"></p>
+                      </div>
+                      <button
+                        type="button"
+                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
+                        data-copy-google-ics
+                        data-copy-trigger
+                        data-track-id="google_copy_link"
+                        data-track-action="copy"
+                        data-track-provider="google"
+                        data-track-section="apps"
+                      >
+                        Copy link
+                      </button>
+                    </div>
+                  </div>
+                  <div class="mt-4">
+                    <p><strong>2.</strong> Open the <strong>From URL</strong> page in Google Calendar.</p>
+                    <div class="mt-3">
+                      <a
+                        href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
+                        class="inline-flex min-h-11 items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2 sm:min-w-56"
+                        data-google-subscribe-link
+                        data-track-id="google_open_from_url"
+                        data-track-action="subscribe"
+                        data-track-provider="google"
+                        data-track-section="apps"
+                      >
+                        Open From URL page
+                      </a>
+                    </div>
+                  </div>
+                  <p class="mt-4"><strong>3.</strong> Paste the link into the box and add the calendar.</p>
+                  <p class="mt-2"><strong>4.</strong> Make sure the timezone looks correct after it appears.</p>
+                </div>
               </div>
-            </div>
-            <div class="provider-action sm:w-48">
-              <a
-                href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
-                class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                data-track-id="google_subscribe"
-                data-track-action="subscribe"
-                data-track-provider="google"
-                data-track-section="apps"
-                data-google-subscribe-link
-                data-google-desktop-label="Subscribe"
-                data-google-mobile-label="How to add"
-                aria-controls="google-mobile-help"
-                aria-expanded="false"
-              >
-                Subscribe
-              </a>
             </div>
           </article>
-
-          <section
-            id="google-mobile-help"
-            class="google-mobile-help px-4 py-5 sm:px-5"
-            data-google-mobile-help
-            aria-label="How to add this calendar to Google Calendar on mobile"
-            hidden
-          >
-            <div class="google-mobile-help-card rounded-xl border border-rule bg-paper-2 p-4 sm:p-5">
-              <div class="max-w-2xl">
-                <p class="text-sm font-semibold text-ink">Using Google Calendar on mobile?</p>
-                <p class="mt-2 text-sm leading-relaxed text-neutral-700">
-                  Google Calendar on phones and tablets does not reliably let you subscribe to a public calendar
-                  directly in the app.
-                </p>
-                <p class="mt-2 text-sm leading-relaxed text-neutral-700">
-                  Copy this link, then on a computer open <strong>Google Calendar &gt; Other calendars &gt; From URL</strong>,
-                  paste the link, and choose <strong>Add calendar</strong>. It will then appear on your phone as well.
-                </p>
-              </div>
-              <div class="mt-4 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
-                <div>
-                  <input
-                    type="text"
-                    value="https://cps-journal-calendar-proxy.noccer.workers.dev/calendar.ics"
-                    readonly
-                    aria-label="Google Calendar subscription link"
-                    class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
-                    data-google-ics-url
-                    data-select-on-tap
-                  />
-                  <p class="mt-1 text-xs text-neutral-600" data-google-copy-hint hidden>Tap text again for copy/paste options.</p>
-                  <p class="mt-2 text-sm font-medium text-moss" data-google-copy-status aria-live="polite"></p>
-                </div>
-                <button
-                  type="button"
-                  class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
-                  data-copy-google-ics
-                  data-track-id="google_mobile_copy_link"
-                  data-track-action="copy"
-                  data-track-provider="google"
-                  data-track-section="apps"
-                >
-                  Copy link
-                </button>
-              </div>
-              <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
-                <a
-                  href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/google"
-                  class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-white px-4 py-2.5 text-sm font-medium text-ink hover:bg-paper focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                  data-google-mobile-fallback
-                  data-track-id="google_mobile_open_web_flow"
-                  data-track-action="subscribe"
-                  data-track-provider="google"
-                  data-track-section="apps"
-                >
-                  Open Google web flow anyway
-                </a>
-                <button
-                  type="button"
-                  class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-transparent px-4 py-2.5 text-sm font-medium text-neutral-700 hover:bg-white focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                  data-google-mobile-close
-                >
-                  Close
-                </button>
-              </div>
-            </div>
-          </section>
 
           <article class="provider-row grid gap-4 px-4 py-5 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center sm:gap-6 sm:px-5" data-provider="outlook">
             <div class="flex gap-3">
@@ -392,7 +372,11 @@
           <p class="mt-1 text-sm leading-relaxed text-neutral-600">
             If your calendar asks for a link, copy this one.
           </p>
-          <div class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start">
+          <div
+            class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
+            data-copy-group
+            data-copy-success-status="Link copied."
+          >
             <div>
               <input
                 id="ics-url"
@@ -401,15 +385,17 @@
                 readonly
                 aria-label="Calendar subscription link"
                 class="block w-full overflow-x-auto rounded-md border border-rule bg-white px-3 py-2 text-sm"
+                data-copy-source
                 data-select-on-tap
               />
-              <p class="mt-1 text-xs text-neutral-600" data-main-copy-hint hidden>Tap text again for copy/paste options.</p>
-              <p class="mt-2 text-sm font-medium text-moss" data-main-copy-status aria-live="polite"></p>
+              <p class="mt-1 text-xs text-neutral-600" data-main-copy-hint data-copy-hint hidden>If copy does not complete, the link will stay selected so you can copy it manually.</p>
+              <p class="mt-2 text-sm font-medium text-moss" data-main-copy-status data-copy-status aria-live="polite"></p>
             </div>
             <button
               type="button"
               class="inline-flex min-h-11 items-center justify-center rounded-lg bg-ink px-4 py-2.5 text-sm font-medium text-white hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-36"
               data-copy-ics
+              data-copy-trigger
               data-track-id="subscription_link_copy"
               data-track-action="copy"
               data-track-section="subscription-link"
