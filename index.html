@@ -314,40 +314,22 @@
 
           <article class="provider-row px-4 py-5 sm:px-5" data-provider="outlook">
             <div class="provider-shell">
-              <div class="provider-head provider-head-desktop provider-head-stack-mobile">
+              <div class="provider-head provider-head-desktop">
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADAUlEQVR4nO1ZS2sTURTOwv/g3Gp1oQvBnYgbcaEggiJW3Yl0o7iSuqgzVSm0vvFBsT76AKtgK7bQotgqSKu1EsSm1namDWm0MUkfMck01qZ5NSYeObfmqokmQx52EueDAx/nTu6cb+bcc8/k6nQaNGjICYr5waKiiuHdhBeriSB2El506PIoWCcRJIg3nRqD5QRJ/lOwSy+gqnfZcmFoPXd8uJTjxVpOEPVEkHxKg10yAUSQGgkvGjhBDGUS7FIKgFyZJkAJNAFCgQsg6f8+zPHSpXwWABwvLuS1AKIkDZVMsuniGAgdU3C6ywEH71ih+MRIfghYdXIEGl/JEP0Gv+GjHIIdtR8U3XxN5SikYyQbAtrefoa/YS4YgW0171MKgDRBMhVwuNnOJvMvRKH5jQda+j0QCEeZX5oKwMok6RQvoKbHBRvOm6i9tvgYR/+RFjvlW66YsyNgdDpIJwqGo7CnzsL8JfUW6ouh9K5NsYDqTgcb6zV7GUf/vobFe6ytHM1cwObLi08BcVs/kzDepJ9h4x3vZtUnoKx1kt10543xhHH0xWCdWUgqAAPtNnlh0O4HszMEz4xz1OT5r4yj32DzU/58zJu5gHNPP7EA11UZE8bRFwOmU6oqhHx/g+XfvYGzT5QLwAWuOgFlKVJo103lKXTq0TSUt09BfZ8Mj8UvlKOZnEHG0V/XJ1OO12d1ETelWMTtKRYxbnhYGo+1TcKtl27K0QxWP+Pox4eGHK/PShkdmQ6wHMfSGfPvTSijVvWlEBEkOHTPxoLEzet+v4da/Ea2okJSpwAiSNA6kKSVCERgq4JWosc0T8vjgM0HZtfPMur+tYy6QrQYYHviDUazJwC7Tlx8kbhubtwdgu3XlDdzSt5APLIiIGYbL5iA/9FOH2iyJu1/VCmApGk4P5bGow8m4PoLNzwcmqUczegIMo5+1Qq42u2CdIwUwCdlWBUf9TkH0QRImoD/++/1vD/gKJwjpkI95FMKrty4mvBSCeHFM4QXu1R9zKpBgy5/8R1pRTcHP7CkfAAAAABJRU5ErkJggg==" alt="" class="app-badge" />
                 <div class="min-w-0 flex-1">
                   <h3 class="font-semibold text-ink">Outlook</h3>
-                  <p class="mt-1 text-sm leading-relaxed text-neutral-600 sm:hidden">
-                    Outlook on the web can work, but on phones it often opens Calendar without showing the add prompt.
+                  <p class="mt-1 text-sm leading-relaxed text-neutral-600">
+                    In Outlook on the web, copy the link first, then open Add calendar and select Subscribe from web.
                   </p>
-                  <p class="mt-1 hidden text-sm leading-relaxed text-neutral-600 sm:block">
-                    Fastest on desktop: this opens Outlook's calendar subscription screen with the link filled in.
-                  </p>
-                </div>
-                <div class="provider-action hidden sm:flex sm:w-48 sm:justify-end">
-                  <a
-                    href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
-                    class="inline-flex min-h-11 w-full items-center justify-center rounded-lg bg-moss px-4 py-2.5 text-sm font-medium text-white hover:bg-moss-2 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                    data-track-id="outlook_subscribe"
-                    data-track-action="subscribe"
-                    data-track-provider="outlook"
-                    data-track-section="apps"
-                  >
-                    Subscribe in Outlook
-                  </a>
                 </div>
               </div>
               <div class="provider-body mt-3 w-full rounded-md border border-rule bg-paper-2 px-3 py-3 text-sm leading-relaxed text-neutral-700">
-                <p class="hidden sm:block">
-                  If Outlook is already open on your phone, the manual path below is more reliable than the direct link.
-                </p>
-                <div class="mt-1 sm:mt-4">
+                <div>
                   <p><strong>1.</strong> Copy this link.</p>
                   <div
                     class="mt-3 grid gap-3 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-start"
                     data-copy-group
-                    data-copy-success-status="Link copied. If Outlook does not show the add screen on your phone, use the manual steps below."
+                    data-copy-success-status="Link copied."
                   >
                     <div>
                       <input
@@ -377,34 +359,23 @@
                     </button>
                   </div>
                 </div>
-                <p class="mt-4"><strong>2.</strong> Open Outlook Calendar.</p>
+                <p class="mt-4"><strong>2.</strong> Open Outlook Add calendar.</p>
                 <div class="mt-3">
                   <a
-                    href="https://outlook.live.com/calendar/0/"
+                    href="https://outlook.live.com/calendar/0/addcalendar"
+                    target="_blank"
+                    rel="noreferrer"
                     class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-white px-4 py-2.5 text-sm font-medium text-ink hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-ink focus:ring-offset-2 sm:min-w-56"
-                    data-track-id="outlook_open_calendar"
-                    data-track-action="open_calendar"
+                    data-track-id="outlook_open_add_calendar"
+                    data-track-action="open_add_calendar"
                     data-track-provider="outlook"
                     data-track-section="apps"
                   >
-                    Open Outlook Calendar
+                    Open Add calendar page
                   </a>
                 </div>
-                <p class="mt-4"><strong>3.</strong> If you are on a phone, try desktop mode or switch to a computer browser.</p>
-                <p class="mt-2"><strong>4.</strong> In Outlook on the web, choose <strong>Add calendar &gt; Subscribe from web</strong>.</p>
-                <p class="mt-2"><strong>5.</strong> Paste the link and finish adding the calendar.</p>
-                <div class="mt-4 sm:hidden">
-                  <a
-                    href="https://cps-journal-calendar-proxy.noccer.workers.dev/subscribe/outlook"
-                    class="inline-flex min-h-11 items-center justify-center rounded-lg border border-rule bg-paper-2 px-4 py-2.5 text-sm font-medium text-moss hover:text-ink hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-                    data-track-id="outlook_try_anyway"
-                    data-track-action="subscribe"
-                    data-track-provider="outlook"
-                    data-track-section="apps"
-                  >
-                    Try Outlook web anyway
-                  </a>
-                </div>
+                <p class="mt-4"><strong>3.</strong> In the left menu, choose <strong>Subscribe from web</strong>.</p>
+                <p class="mt-2"><strong>4.</strong> Paste the link and finish adding the calendar.</p>
               </div>
             </div>
           </article>
