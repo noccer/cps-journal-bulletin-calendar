@@ -20,8 +20,8 @@
       })();
     </script>
     <link rel="icon" href="./assets/favicon-BMxeYNeA.svg" type="image/svg+xml" />
-    <script type="module" crossorigin src="./assets/index-CdvgpA_0.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CwDHTzgI.css">
+    <script type="module" crossorigin src="./assets/index-C6kxzWxa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B8AWZGYu.css">
   </head>
 
   <body class="bg-paper text-ink antialiased">
@@ -136,30 +136,37 @@
       </section>
 
       <section class="surface-card surface-card-strong mt-8 p-5 sm:p-6">
-        <div class="max-w-2xl">
-          <h2 class="text-xl font-semibold text-ink">What it looks like</h2>
-          <p class="mt-2 text-sm leading-relaxed text-neutral-600">
-            Once it is added, school dates appear in your normal calendar. Here is an example in Google Calendar.
-          </p>
-        </div>
-        <div class="screenshot-stage mt-6 grid gap-4 sm:grid-cols-2">
-          <figure class="calendar-preview calendar-preview-month">
-            <img
-              src="./assets/month-BbY6FMLE.jpeg"
-              alt="Google Calendar month view showing school events across March."
-              class="calendar-preview-image"
-            />
-            <figcaption class="calendar-preview-caption">Month view</figcaption>
-          </figure>
-          <figure class="calendar-preview calendar-preview-week">
-            <img
-              src="./assets/week-BL3ie-TR.jpeg"
-              alt="Google Calendar week view showing school events scheduled through one week."
-              class="calendar-preview-image"
-            />
-            <figcaption class="calendar-preview-caption">Week view</figcaption>
-          </figure>
-        </div>
+        <details class="group">
+          <summary class="flex cursor-pointer list-none flex-col items-start gap-4 [&::-webkit-details-marker]:hidden">
+            <div class="max-w-2xl">
+              <h2 class="text-xl font-semibold text-ink">What it looks like</h2>
+              <p class="mt-2 text-sm leading-relaxed text-neutral-600">
+                Once it is added, school dates appear in your normal calendar. Open this section to see an example in
+                Google Calendar.
+              </p>
+              <p class="mt-4 text-sm font-medium text-moss group-open:hidden">Show screenshots</p>
+              <p class="mt-4 hidden text-sm font-medium text-moss group-open:block">Hide screenshots</p>
+            </div>
+          </summary>
+          <div class="screenshot-stage mt-6 grid gap-4 sm:grid-cols-2">
+            <figure class="calendar-preview calendar-preview-month">
+              <img
+                src="./assets/month-BbY6FMLE.jpeg"
+                alt="Google Calendar month view showing school events across March."
+                class="calendar-preview-image"
+              />
+              <figcaption class="calendar-preview-caption">Month view</figcaption>
+            </figure>
+            <figure class="calendar-preview calendar-preview-week">
+              <img
+                src="./assets/week-BL3ie-TR.jpeg"
+                alt="Google Calendar week view showing school events scheduled through one week."
+                class="calendar-preview-image"
+              />
+              <figcaption class="calendar-preview-caption">Week view</figcaption>
+            </figure>
+          </div>
+        </details>
       </section>
 
       <section id="apps" class="surface-card mt-8 p-5 sm:p-6">
