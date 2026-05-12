@@ -13,16 +13,14 @@
       (() => {
         const storageKey = "cps-journal-theme";
         const root = document.documentElement;
-        const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
         const savedTheme = localStorage.getItem(storageKey);
-        const preference = savedTheme === "light" || savedTheme === "dark" || savedTheme === "system" ? savedTheme : "system";
-        const resolvedTheme = preference === "system" ? (systemDark ? "dark" : "light") : preference;
-        root.dataset.theme = resolvedTheme;
-        root.style.colorScheme = resolvedTheme;
+        const theme = savedTheme === "dark" ? "dark" : "light";
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
       })();
     </script>
     <link rel="icon" href="./assets/favicon-BMxeYNeA.svg" type="image/svg+xml" />
-    <script type="module" crossorigin src="./assets/index-NfiZctfj.js"></script>
+    <script type="module" crossorigin src="./assets/index-CdvgpA_0.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-CwDHTzgI.css">
   </head>
 
@@ -52,27 +50,12 @@
             <button
               type="button"
               class="theme-toggle-button inline-flex h-9 w-9 items-center justify-center rounded-md text-neutral-600 transition focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
-              data-theme-mode="system"
-              data-track-id="theme_system"
-              data-track-action="theme_change"
-              data-track-section="header"
-              aria-label="Use system theme"
-              aria-pressed="true"
-            >
-              <svg class="h-4.5 w-4.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <rect x="4" y="5" width="16" height="11" rx="2" stroke="currentColor" stroke-width="1.8" />
-                <path d="M9 19h6M12 16v3" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" />
-              </svg>
-            </button>
-            <button
-              type="button"
-              class="theme-toggle-button inline-flex h-9 w-9 items-center justify-center rounded-md text-neutral-600 transition focus:outline-none focus:ring-2 focus:ring-moss focus:ring-offset-2"
               data-theme-mode="light"
               data-track-id="theme_light"
               data-track-action="theme_change"
               data-track-section="header"
               aria-label="Use light theme"
-              aria-pressed="false"
+              aria-pressed="true"
             >
               <svg class="h-4.5 w-4.5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
